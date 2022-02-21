@@ -25,19 +25,7 @@ public class Main {
     }
         System.out.println(n);
         System.out.println("Willy-nilly, this semester I will learn " + languages[n]);
-        int n1;
-        int p;
-        
-        // Create a Scanner object to read input.
-        Scanner console = new Scanner(System.in);
-
-        // Get n1 from the user.
-        System.out.print("Enter n1 ");
-        n1 = console.nextInt();
-
-        // Get p from the user.
-        System.out.print("Enter p ");
-        p = console.nextInt();
+       
 
     }
 
