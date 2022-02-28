@@ -1,0 +1,1 @@
+Am facut in laboratorul 1 compulsory,homework si am incercat bonusul, dar am erori
