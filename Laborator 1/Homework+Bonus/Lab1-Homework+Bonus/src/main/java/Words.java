@@ -45,19 +45,22 @@ public class Words {
             //System.out.println(len);
             if (twoStrings(strArray[len], last) && !(strArray[len].equals(last))) {
                 count++;
-                array[index] = len;
-                index++;
+                array[len] = len;
                 last = strArray[len];
             } else {
-                last = strArray[len];
                 count = 1;
+                last = strArray[len];
+                for (int i = 0; i <= array.length -2 ; i++)
+                    array[i] = -1;
+                array[len] = len;
             }
             if (max < count) {
                 max = count;
             }
             len++;
             if (len == strArray.length)
-                len = 1;
+            {len = 1;
+                index=0;}
         }
         return max;
     }
