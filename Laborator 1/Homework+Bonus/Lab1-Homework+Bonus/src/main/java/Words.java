@@ -24,68 +24,43 @@ public class Words {
 
         return false;
     }
-    private static boolean check(int[] arr, int toCheckValue)
-    {
+
+    private static boolean check(int[] arr, int toCheckValue) {
         for (int element : arr) {
             if (element == toCheckValue) {
                 return true;
             }
         }
 
-       return false;
+        return false;
     }
-    public int findLongestSub(String[] strArray) {
-        int array[]=new int[strArray.length];
-        for(int i=0;i<= array.length-1;i++)
-            array[i]=-1;
-        int count = 1, len = 1, max = 1,index=0;
-        while (!(check(array,len-1))) {
+
+    public int bonus(String[] strArray) {
+        int array[] = new int[strArray.length];
+        String last = strArray[0];
+        for (int i = 0; i <= array.length - 1; i++)
+            array[i] = -1;
+        int count = 1, len = 1, max = 1, index = 0;
+        while (!(check(array, len))) {
             //System.out.println(len);
-            if (twoStrings(strArray[len], strArray[len-1]) && !(strArray[len].equals(strArray[len-1]))) {
+            if (twoStrings(strArray[len], last) && !(strArray[len].equals(last))) {
                 count++;
-                array[index]=len-1;
+                array[index] = len;
                 index++;
-              // System.out.println("count "+count);
-            }
-                if (max < count) {
-                    max = count;
-                }
-           else {
+                last = strArray[len];
+            } else {
+                last = strArray[len];
                 count = 1;
             }
-            for(int i=0;i<= array.length-1;i++)
-           // System.out.println(array[i]);
+            if (max < count) {
+                max = count;
+            }
             len++;
-            if(len== strArray.length)
-                len=0;
-        } ;
+            if (len == strArray.length)
+                len = 1;
+        }
         return max;
     }
-
-
-
-    public void bonus(boolean[][] mat, int n, String[] strArray) {
-        int max = 0, row = 0;
-        for (int i = 0; i < n; i++) {
-            int sumRow = 0;
-            for (int j = 0; j < n; j++) {
-                int myInt = mat[i][j] ? 1 : 0;
-                sumRow = sumRow + myInt;
-            }
-            if (sumRow > max) {
-                max = sumRow;
-                row = i;
-            }
-        }
-        /*
-        System.out.println("Subsirul cerut este ");
-        for (int j = 0; j < n; j++) {
-            if (mat[row][j])
-                System.out.print(strArray[j] + " ");
-        }
-        */
-    }
-
 
     public void create(int n, int p, String lettersArray) {
         boolean largeInput = false;
@@ -107,7 +82,7 @@ public class Words {
         if (!largeInput) {
             System.out.println("Cuvintele sunt");
             for (int j = 0; j < n; j++) {
-                System.out.print(strArray[j]+" ");
+                System.out.print(strArray[j] + " ");
             }
             System.out.println();
         }
@@ -142,8 +117,7 @@ public class Words {
 
             }
         }
-        System.out.println("rez e ");
-        System.out.println(findLongestSub(strArray));
+
         if (!largeInput) {
             for (int j = 0; j < n; j++) {
                 System.out.println("Vecinii cuvantului " + strArray[j] + " sunt " + strArrayNeighbors[j]);
@@ -152,6 +126,8 @@ public class Words {
             endTime = System.nanoTime();
             System.out.printf("Total time in nanoseconds: %d\n", endTime - startTime);
         }
-
+        System.out.print("rez e ");
+        System.out.print(bonus(strArray));
     }
+
 }
