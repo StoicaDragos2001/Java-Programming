@@ -12,6 +12,11 @@ public abstract class Room {
     protected String name;
     protected Integer capacity;
 
+    public Room(String name, int capacity) {
+        setName(name);
+        setCapacity(capacity);
+    }
+
      /**
       * 2 functii setters
       */

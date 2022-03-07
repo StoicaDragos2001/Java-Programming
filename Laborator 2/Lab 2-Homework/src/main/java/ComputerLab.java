@@ -27,6 +27,7 @@ public final class ComputerLab extends Room {
      */
 
     public ComputerLab(String name, int capacity, String operatingSystem) {
+        super(name, capacity);
         setName(name);
         setCapacity(capacity);
         setOperatingSystem(operatingSystem);
