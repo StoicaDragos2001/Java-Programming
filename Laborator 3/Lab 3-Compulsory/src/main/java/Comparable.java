@@ -1,3 +1,3 @@
-public interface Comparable<T> {
-    public int compareTo(T object);
+public interface Comparable<Node> extends java.lang.Comparable<Node>{
+    public int compareTo(Node object);
 }

@@ -3,7 +3,7 @@
  * @author Petrea Daniela
  */
 
-public abstract class Node implements Comparable<Node> {
+public abstract class Node implements java.lang.Comparable<Node> {
     public String name;
 
     /**
