@@ -20,12 +20,12 @@ public final class LectureHall extends Room {
     }
 
     /**
-     *
-     * @param name numele camerei care este sala de lectura
-     * @param capacity capacitatea camerei
+     * @param name           numele camerei care este sala de lectura
+     * @param capacity       capacitatea camerei
      * @param videoProjector daca are sau nu sala de lectura video-proiector
      */
     public LectureHall(String name, int capacity, boolean videoProjector) {
+        super(name, capacity);
         setName(name);
         setCapacity(capacity);
         setVideoProjector(videoProjector);

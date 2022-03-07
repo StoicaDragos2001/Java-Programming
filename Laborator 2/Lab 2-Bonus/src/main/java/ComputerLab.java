@@ -20,13 +20,13 @@ public final class ComputerLab extends Room {
     }
 
     /**
-     *
-     * @param name numele camerei care este laborator
-     * @param capacity capacitatea camerei
+     * @param name            numele camerei care este laborator
+     * @param capacity        capacitatea camerei
      * @param operatingSystem sistemul de operare al calculatorului
      */
 
     public ComputerLab(String name, int capacity, String operatingSystem) {
+        super(name, capacity);
         setName(name);
         setCapacity(capacity);
         setOperatingSystem(operatingSystem);

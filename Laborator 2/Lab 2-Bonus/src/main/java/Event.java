@@ -19,11 +19,10 @@ public class Event {
      * Constructorul pentru clasa Event
      */
     /**
-     *
-     * @param name numele evenimentului
-     * @param size marimea evenimentului
+     * @param name       numele evenimentului
+     * @param size       marimea evenimentului
      * @param start_time timpul de inceput al evenimentului
-     * @param end_time timpul de sfarsit al evenimentului
+     * @param end_time   timpul de sfarsit al evenimentului
      */
 
     public Event(String name, Integer size, LocalTime start_time, LocalTime end_time) {
@@ -39,7 +38,6 @@ public class Event {
      */
 
     /**
-     *
      * @param name numele evenimentului
      */
     public void setName(String name) {
@@ -47,7 +45,6 @@ public class Event {
     }
 
     /**
-     *
      * @param size marimea evenimentului
      */
 
@@ -56,7 +53,6 @@ public class Event {
     }
 
     /**
-     *
      * @param startTime timpul de inceput al evenimentului
      */
 
@@ -65,7 +61,6 @@ public class Event {
     }
 
     /**
-     *
      * @param endTime timpul de final al evenimentului
      */
 
@@ -78,7 +73,6 @@ public class Event {
      */
 
     /**
-     *
      * @return name numele evenimentului
      */
 
@@ -87,7 +81,6 @@ public class Event {
     }
 
     /**
-     *
      * @return size marimea evenimentului
      */
 
@@ -96,7 +89,6 @@ public class Event {
     }
 
     /**
-     *
      * @return startTime timpul de inceput al evenimentului
      */
 
@@ -105,7 +97,6 @@ public class Event {
     }
 
     /**
-     *
      * @return endTime timpul de final al evenimentului
      */
     public LocalTime getEndTime() {
@@ -125,7 +116,6 @@ public class Event {
     }
 
     /**
-     *
      * facem @Override toString
      * deoarece suprascriem metoda toString
      */
@@ -136,7 +126,6 @@ public class Event {
     }
 
     /**
-     *
      * facem @Override equals
      * deoarece suprascriem metoda equals, care returneaza true daca 2 instante ale clasei Event au acelasi nume
      */
@@ -150,7 +139,7 @@ public class Event {
         if (!(o instanceof Event s)) {
             return false;
         }
-        return this.getName().equals(s.getName()) ;
+        return this.getName().equals(s.getName());
     }
 
 }

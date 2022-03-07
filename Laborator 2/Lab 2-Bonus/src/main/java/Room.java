@@ -12,6 +12,11 @@ public abstract class Room {
     protected String name;
     protected Integer capacity;
 
+    public Room(String name, int capacity) {
+        setName(name);
+        setCapacity(capacity);
+    }
+
     /**
      * 2 functii setters
      */
@@ -33,7 +38,6 @@ public abstract class Room {
     }
 
     /**
-     *
      * @return name
      */
 
@@ -42,7 +46,6 @@ public abstract class Room {
     }
 
     /**
-     *
      * @return capacity
      */
     public Integer getCapacity() {
@@ -62,7 +65,6 @@ public abstract class Room {
     }
 
     /**
-     *
      * facem @Override toString
      * deoarece suprascriem metoda toString
      */
@@ -73,7 +75,6 @@ public abstract class Room {
     }
 
     /**
-     *
      * facem @Override equals
      * deoarece suprascriem metoda equals, care returneaza true daca 2 instante ale clasei Room au acelasi nume
      */
