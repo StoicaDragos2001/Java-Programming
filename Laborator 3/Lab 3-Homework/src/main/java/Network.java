@@ -39,32 +39,12 @@ public class Network {
             }
         }
 
-        Collections.sort(identifiableNodes, new AdressComparator());
+        Collections.sort(identifiableNodes, new AddressComparator());
 
         for (Node node : identifiableNodes) {
             System.out.println(node);
         }
         return identifiableNodes;
-    }
-
-    /**
-     * comparam adresele nodurilor care sunt identifiable
-     */
-    class AdressComparator implements Comparator<Node> {
-        public int compare(Node NodeA, Node NodeB) {
-            String address1 = getAddress(NodeA);
-            String address2 = getAddress(NodeB);
-            return address1.compareTo(address2);
-        }
-
-        private String getAddress(Node node) {
-            if (node instanceof Computer computer) {
-                return computer.getAddress();
-            }
-
-            Router router = (Router) node;
-            return router.getAddress();
-        }
     }
 
 }
