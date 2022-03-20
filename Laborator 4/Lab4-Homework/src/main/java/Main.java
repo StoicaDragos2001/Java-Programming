@@ -3,7 +3,7 @@ import Instances.Intersection;
 import Instances.Street;
 import org.jgrapht.alg.spanning.PrimMinimumSpanningTree;
 import com.github.javafaker.Faker;
-import org.jgrapht.graph.DefaultDirectedGraph;
+import org.jgrapht.graph.ListenableUndirectedWeightedGraph;
 import org.jgrapht.graph.DefaultWeightedEdge;
 
 import java.util.ArrayList;
@@ -65,10 +65,18 @@ public final class Main {
         for (Intersection node : nodes)
             System.out.print(node.getName() + " ");
         System.out.println();
+        for (int index = 0; index <= 8; index++) {
+            List<String> streetList = new ArrayList<>();
+            for (Street streetIndex : streets)
+                if (streetIndex.getDestination1() == nodes.get(index) || streetIndex.getDestination2() == nodes.get(index))
+                    streetList.add(streetIndex.getName());
+            Galati.setStreetForIntersection(nodes.get(index), streetList);
+        }
+        Galati.displayCity();
         /**
          * using this package of JGraphT for the implementation of the Prim's algorithm
          */
-        DefaultDirectedGraph<String, DefaultWeightedEdge> g = new DefaultDirectedGraph<>(DefaultWeightedEdge.class);
+        ListenableUndirectedWeightedGraph<String, DefaultWeightedEdge> g = new ListenableUndirectedWeightedGraph<>(DefaultWeightedEdge.class);
         for (Intersection vertex : nodes)
             g.addVertex(vertex.getName());
         for (Street street : streets)

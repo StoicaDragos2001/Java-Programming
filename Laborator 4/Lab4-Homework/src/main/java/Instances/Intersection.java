@@ -16,7 +16,10 @@ public class Intersection {
     public void setName(String name) {
         this.name = name;
     }
-
+    /**
+     * I do override toString s.t
+     * @return intersection with the name
+     */
     @Override
     public String toString() {
         return "Intersection " + getName();
