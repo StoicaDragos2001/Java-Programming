@@ -1,6 +1,4 @@
-import Instances.City;
-import Instances.Intersection;
-import Instances.Street;
+import instances.*;
 import org.jgrapht.alg.spanning.PrimMinimumSpanningTree;
 import com.github.javafaker.Faker;
 import org.jgrapht.graph.ListenableUndirectedWeightedGraph;
@@ -15,7 +13,7 @@ import java.util.stream.IntStream;
 public final class Main {
 
     public static void main(String[] args) {
-        List<Instances.Intersection> nodes = IntStream.rangeClosed(0, 8).mapToObj(i -> new Intersection("v" + i)).collect(Collectors.toList());
+        List<Intersection> nodes = IntStream.rangeClosed(0, 8).mapToObj(i -> new Intersection("v" + i)).collect(Collectors.toList());
         LinkedList<Street> streets = new LinkedList<>();
         streets.add(new Street(2, "s0", nodes.get(0), nodes.get(1)));
         streets.add(new Street(2, "s1", nodes.get(0), nodes.get(2)));
