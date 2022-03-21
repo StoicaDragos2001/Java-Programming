@@ -1,5 +1,9 @@
 package Instances;
 
+/**
+ * class Street
+ * @author Petrea Daniela
+ */
 public class Street implements Comparable<Street> {
     private Integer length;
     private String name;

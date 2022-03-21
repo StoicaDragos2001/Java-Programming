@@ -1,6 +1,7 @@
 package Instances;
 
 /**
+ * class Intersection
  * @author Petrea Daniela
  */
 public class Intersection {
