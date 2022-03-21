@@ -1,5 +1,4 @@
-import Instances.Intersection;
-import Instances.Street;
+import instances.*;
 
 import java.util.*;
 import java.util.stream.Collectors;
