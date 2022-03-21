@@ -1,5 +1,9 @@
 package Instances;
 
+/**
+ * Class Street
+ * @author Petrea Daniela
+ */
 public class Street implements Comparable<Street> {
     private Integer length;
     private String name;
@@ -42,7 +46,10 @@ public class Street implements Comparable<Street> {
     public void setDestination2(Intersection destination2) {
         this.destination2 = destination2;
     }
-
+    /**
+     * I do override toString s.t
+     * @return street with the length, the name, the first intersection and the second intersection
+     */
     @Override
     public String toString() {
         return "Street{" +
@@ -51,7 +58,11 @@ public class Street implements Comparable<Street> {
                 ", destination2=" + destination2.getName() +
                 '}';
     }
-
+    /**
+     * I do override compareTo s.t. I can order streets according to their length
+     * @param other of the type street
+     * @return this.length.compareTo(other.length)
+     */
     @Override
     public int compareTo(Street other) {
         if(other.length != 0)

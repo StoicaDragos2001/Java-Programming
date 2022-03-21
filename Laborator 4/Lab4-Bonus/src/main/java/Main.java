@@ -2,8 +2,6 @@ import Instances.*;
 import Randomizer.RandomInstances;
 import com.github.javafaker.Faker;
 import org.jgrapht.alg.spanning.PrimMinimumSpanningTree;
-import org.jgrapht.generate.GnpRandomGraphGenerator;
-import org.jgrapht.graph.DefaultEdge;
 import org.jgrapht.graph.DefaultWeightedEdge;
 import org.jgrapht.graph.ListenableUndirectedWeightedGraph;
 import org.jgrapht.traverse.DepthFirstIterator;
@@ -47,9 +45,12 @@ public final class Main {
             System.out.println(street);
         }
         Collections.sort(indexes);
+        /**
+         * I remove the streets that have the same intersection 1 and the same intersection 2
+         */
         int nr = 0;
-        for (int i = 0; i < indexes.size(); i++) {
-            streets.remove((int) (indexes.get(i) - nr));
+        for (Integer index : indexes) {
+            streets.remove(index - nr);
             nr++;
         }
         numberOfStreets = streets.size();
@@ -82,7 +83,7 @@ public final class Main {
                         if (lengthEdge1 + lengthEdge2 > lengthEdge3 && lengthEdge1 + lengthEdge3 > lengthEdge2 && lengthEdge2 + lengthEdge3 > lengthEdge1)
                             System.out.println("triangle");
                         else {
-                            double biggest = (lengthEdge1 > lengthEdge2) ? (lengthEdge1 > lengthEdge3 ? lengthEdge1 : lengthEdge3) : (lengthEdge2 > lengthEdge3 ? lengthEdge2 : lengthEdge3);
+                            double biggest = (lengthEdge1 > lengthEdge2) ? (Math.max(lengthEdge1, lengthEdge3)) : (Math.max(lengthEdge2, lengthEdge3));
                             if (biggest == lengthEdge1)
                                 g.setEdgeWeight(edge1, lengthEdge2 + lengthEdge3 - 1);
                             else if (biggest == lengthEdge2)
@@ -118,6 +119,6 @@ public final class Main {
             System.out.print(dfs.next() + " ");
         }
         System.out.println();
-     
+
     }
 }
