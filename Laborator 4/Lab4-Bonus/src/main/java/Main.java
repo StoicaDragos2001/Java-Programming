@@ -1,5 +1,5 @@
-import Instances.*;
-import Randomizer.RandomInstances;
+import instances.*;
+import randomizer.RandomInstances;
 import com.github.javafaker.Faker;
 import org.jgrapht.alg.spanning.PrimMinimumSpanningTree;
 import org.jgrapht.graph.DefaultWeightedEdge;
