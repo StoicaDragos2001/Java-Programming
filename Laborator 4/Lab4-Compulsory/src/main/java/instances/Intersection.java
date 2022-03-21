@@ -19,7 +19,7 @@ public class Intersection {
     }
 
     /**
-     * I do override toString s.t
+     * I do overwrite toString s.t
      * @return intersection with the name
      */
     @Override

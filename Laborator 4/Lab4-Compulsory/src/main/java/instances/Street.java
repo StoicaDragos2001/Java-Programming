@@ -48,7 +48,7 @@ public class Street implements Comparable<Street> {
     }
 
     /**
-     * I do override toString s.t
+     * I do overwrite toString s.t
      * @return street with the length, the name, the first intersection and the second intersection
      */
     @Override
@@ -61,7 +61,7 @@ public class Street implements Comparable<Street> {
     }
 
     /**
-     * I do override compareTo s.t. I can order streets according to their length
+     * I do overwrite compareTo s.t. I can order streets according to their length
      * @param other of the type street
      * @return this.length.compareTo(other.length)
      */
