@@ -118,11 +118,6 @@ public final class Main {
             System.out.print(dfs.next() + " ");
         }
         System.out.println();
-        System.out.println("-----------");
-        Random rand = new Random();
-        var randomGraph = new GnpRandomGraphGenerator<>(10, 0.5, rand, false);
-                var graphDragos=new ListenableUndirectedWeightedGraph<String, DefaultWeightedEdge>(DefaultWeightedEdge.class);
-        var mapDragos=new HashMap<String, String>();
-        System.out.println(randomGraph.generateGraph(graphDragos,mapDragos));
+     
     }
 }
