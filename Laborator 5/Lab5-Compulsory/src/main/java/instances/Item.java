@@ -1,5 +1,9 @@
 package instances;
 
+/**
+ * class Item
+ * @author Petrea Daniela
+ */
 public abstract class Item {
     protected String id;
     protected String title;

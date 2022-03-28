@@ -1,10 +1,13 @@
 package exception;
 
+/**
+ * class CustomException
+ * @author Petrea Daniela
+ */
+public class CustomException extends Exception{
 
-public class CustomException extends RuntimeException{
-
-    public CustomException(String id) {
-        super("id " + id + " already in use");
+    public CustomException(String exception) {
+        super("exception " + exception);
     }
 
 }

@@ -1,5 +1,9 @@
 package instances;
 
+/**
+ * class Article that extends class Item
+ * @author Petrea Daniela
+ */
 public class Article extends Item {
     private String author;
     private int year;

@@ -10,21 +10,39 @@ import java.net.URI;
 import java.net.URISyntaxException;
 
 public class CatalogUtil {
-    public static void save (Catalog catalog, String locatie) throws IOException {
+    /**
+     * we serialize the catalog in a json file from the specified path
+     * @param catalog
+     * @param path
+     * @throws IOException
+     */
+    public static void save (Catalog catalog, String path) throws IOException {
         ObjectMapper objectMapper = new ObjectMapper();
-        objectMapper.writeValue(new File(locatie), catalog);
+        objectMapper.writeValue(new File(path), catalog);
     }
 
-    public static Catalog load(String locatie) throws IOException {
+    /**
+     *
+     * @param path
+     * @return the catalog that we deserialize from jason file
+     * @throws IOException
+     */
+    public static Catalog load(String path) throws IOException {
         Catalog catalog = new Catalog("myRefs");
         try {
             ObjectMapper objectMapper = new ObjectMapper();
-            catalog = objectMapper.readValue(new File(locatie), Catalog.class);
+            catalog = objectMapper.readValue(new File(path), Catalog.class);
         } catch (FileNotFoundException e) {
-            System.err.println("The file at the location " + locatie + " is missing!");
+            System.err.println("The file at the location " + path + " is missing!");
         }
         return catalog;
     }
+
+    /**
+     * method that we use to open the item( that can be of 2 types - a file in the computer or an url link)
+     * @param item
+     * @throws IOException
+     */
     public static void view(Item item) throws IOException {
         if (item.getLocation().contains("www")) {
             URI u = null;
