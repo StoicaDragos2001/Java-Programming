@@ -34,4 +34,4 @@ Bonus
 
 Suppose there is an official set of concepts (keywords), and that each item has a list of such concepts and evolve your model in order to support this new feature.
 
-Create large instances of the problem and test your algorithm.
+Create large instances of the problem
