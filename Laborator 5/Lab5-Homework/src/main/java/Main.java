@@ -5,7 +5,10 @@ import instances.Article;
 import instances.Book;
 import java.io.IOException;
 import java.util.Scanner;
-
+/**
+ * class Main
+ * @author Petrea Daniela
+ */
 public class Main {
     public static void main(String args[]) throws IOException, CustomException, ClassNotFoundException {
         Main app = new Main();

@@ -1,5 +1,6 @@
 package catalog;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import exception.CustomException;
 import instances.Item;
 import java.util.*;
 
@@ -12,8 +13,17 @@ public class Catalog {
         this.name = name;
 
     }
-    public void add(Item item) {
-
+    /**
+     *
+     * @param item that the item we want to add in the catalog
+     * @throws CustomException if the id of the item is already in the list of items
+     */
+    public void add(Item item) throws CustomException {
+        for(int index=0;index<items.size();index++){
+            if(items.get(index).getId().equals(item.getId())){
+                throw new CustomException(item.getId());
+            }
+        }
         items.add(item);
     }
 

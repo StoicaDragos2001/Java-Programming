@@ -9,7 +9,10 @@ import java.io.*;
 import freemarker.template.Configuration;
 import freemarker.template.Template;
 import freemarker.template.TemplateException;
-
+/**
+ * class ReportCommand that extends GenericCommand
+ * @author Petrea Daniela
+ */
 public class ReportCommand extends GenericCommand{
     public ReportCommand(Catalog catalog) {
         super(catalog);

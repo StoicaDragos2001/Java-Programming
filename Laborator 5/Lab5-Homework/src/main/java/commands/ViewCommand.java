@@ -1,15 +1,15 @@
 package commands;
-
 import catalog.Catalog;
 import exception.CustomException;
-import instances.Item;
-
 import java.awt.*;
 import java.io.File;
 import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
-
+/**
+ * class ViewCommand that extends GenericCommand
+ * @author Petrea Daniela
+ */
 public class ViewCommand extends GenericCommand{
     public ViewCommand(Catalog catalog) {
         super(catalog);

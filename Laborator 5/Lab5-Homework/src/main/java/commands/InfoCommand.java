@@ -9,7 +9,10 @@ import org.apache.tika.parser.AutoDetectParser;
 import org.apache.tika.parser.ParseContext;
 import org.apache.tika.sax.BodyContentHandler;
 import org.xml.sax.ContentHandler;
-
+/**
+ * class InfoCommand that extends GenericCommand
+ * @author Petrea Daniela
+ */
 public class InfoCommand extends GenericCommand{
     public InfoCommand(Catalog catalog) {
         super(catalog);

@@ -10,7 +10,12 @@ import java.net.URISyntaxException;
 
 
 public class CatalogUtil {
-
+    /**
+     * we serialize the catalog in a json file from the specified path
+     * @param catalog
+     * @param path
+     * @throws IOException
+     */
     public static void save(Catalog catalog, String path)
             throws IOException {
 
@@ -19,14 +24,23 @@ public class CatalogUtil {
                 new File(path),
                 catalog);
     }
-
+    /**
+     *
+     * @param path
+     * @return the catalog that we deserialize from jason file
+     * @throws IOException
+     */
     public static Catalog load(String path)
             throws CustomException, IOException {
         ObjectMapper objectMapper = new ObjectMapper();
         System.out.println(new File(path));
         return objectMapper.readValue(new File(path), Catalog.class);
     }
-
+    /**
+     * method that we use to open the item( that can be of 2 types - a file in the computer or an url link)
+     * @param item
+     * @throws IOException
+     */
     public static void view(Item item) throws IOException {
         if (item.getLocation().contains("www")) {
             URI u = null;

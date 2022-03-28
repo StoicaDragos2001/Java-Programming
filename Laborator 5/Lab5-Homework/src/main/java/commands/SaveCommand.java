@@ -7,7 +7,10 @@ import instances.Item;
 
 import java.io.File;
 import java.io.IOException;
-
+/**
+ * class SaveCommand that extends GenericCommand
+ * @author Petrea Daniela
+ */
 public class SaveCommand extends GenericCommand{
     public SaveCommand(Catalog catalog) {
         super(catalog);

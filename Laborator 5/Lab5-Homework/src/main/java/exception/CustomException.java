@@ -1,7 +1,13 @@
 package exception;
 
-    public class CustomException extends Exception {
-        public CustomException(String msg) {
-            super(msg);
-        }
+/**
+ * class CustomException
+ * @author Petrea Daniela
+ */
+public class CustomException extends Exception{
+
+    public CustomException(String exception) {
+        super("exception " + exception);
     }
+
+}

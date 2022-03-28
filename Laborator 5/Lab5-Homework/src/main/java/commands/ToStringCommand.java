@@ -1,10 +1,11 @@
 package commands;
-
 import catalog.Catalog;
 import exception.CustomException;
-
 import java.io.IOException;
-
+/**
+ * class ToStringCommand that extends GenericCommand
+ * @author Petrea Daniela
+ */
 public class ToStringCommand extends GenericCommand{
     public ToStringCommand(Catalog catalog) {
         super(catalog);

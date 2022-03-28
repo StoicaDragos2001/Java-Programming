@@ -4,6 +4,10 @@ import exception.CustomException;
 import instances.Article;
 import instances.Book;
 
+/**
+ * class AddCommand that extends GenericCommand
+ * @author Petrea Daniela
+ */
 
 public class AddCommand extends GenericCommand {
     public AddCommand(Catalog catalog) {
@@ -11,6 +15,11 @@ public class AddCommand extends GenericCommand {
         callMethod = "add method";
     }
 
+    /**
+     * I overwrite execute method
+     * @param stringGiven that I parse s.t. I cand add the Item in the catalog
+     * @throws CustomException if the id of the item is already in the list of items
+     */
     @Override
     public void execute(String stringGiven) throws CustomException {
         String[] arrOfStr = stringGiven.split(String.valueOf(','), 6);
