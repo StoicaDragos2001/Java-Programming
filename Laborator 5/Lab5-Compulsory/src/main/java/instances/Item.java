@@ -1,24 +1,9 @@
 package instances;
-import java.io.Serializable;
-import java.util.HashMap;
-import java.util.Map;
 
-public abstract class Item implements Serializable {
-    private String id;
-    private String title;
-    private String location; //file name or Web page
-
-    private Map<String, Object> tags = new HashMap<>();
-
-    public void addTag(String key, Object obj) {
-        tags.put(key, obj);
-    }
-
-    public Item(String id, String title, String location){
-        this.id = id;
-        this.title=title;
-        this.location= this.location;
-    }
+public abstract class Item {
+    protected String id;
+    protected String title;
+    protected String location;
 
     public String getLocation() {
         return location;
@@ -36,11 +21,20 @@ public abstract class Item implements Serializable {
         this.id = id;
     }
 
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
     public void setLocation(String location) {
         this.location = location;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
+    @Override
+    public String toString() {
+        return "Item{" +
+                "id=" + id +
+                ", title='" + title + '\'' +
+                ", location='" + location + '\'' +
+                '}';
     }
 }

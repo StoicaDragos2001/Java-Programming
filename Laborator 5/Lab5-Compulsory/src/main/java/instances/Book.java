@@ -1,15 +1,40 @@
 package instances;
 
 public class Book extends Item{
-    private int year;
-    private String author;
-    private String type;
-
+ private String author;
+ private int year;
+ private String type;
     public Book(String id, String title, String location, int year, String author, String type) {
-        super(id, title, location);
-        this.year=year;
-        this.author=author;
+        this.author = author;
+        this.year = year;
+        this.id = id;
+        this.title =title;
+        this.location=location;
         this.type=type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    public void setYear(int year) {
+        this.year = year;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setAuthor(String author) {
+        this.author = author;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public int getYear() {
+        return year;
     }
 
     @Override
