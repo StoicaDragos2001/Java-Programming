@@ -9,3 +9,13 @@ A configuration panel for introducing parameters regarding the grid size and a b
 A canvas (drawing panel) for drawing the board. Draw the grid lines according to the values specified in the config panel. This panel must be placed in the center part of the frame.
 
 A control panel for managing the game. This panel will contain the buttons: Load, Save, Exit ,etc. and it will be placed at the bottom part of the frame.
+
+Homework 
+
+Create the object oriented model.
+
+Initialize the game by generating random sticks and place them on the board. Implement either direct or retained mode for drawing the game board.
+
+Implement the logic of the game. When the player execute a mouse pressed operation, a stone must be drawn at the mouse location: red or blue depending on whose turn it is. Validate the move, according to the game rules. Determine the winner of the game.
+
+Export the current image of the game board into a PNG file.
