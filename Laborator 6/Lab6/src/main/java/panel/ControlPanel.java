@@ -44,7 +44,7 @@ public class ControlPanel extends JPanel {
 
     }
 
-    private void save(ActionEvent e) {
+    private void save(ActionEvent event) {
         frame.pack();
         BufferedImage img = new BufferedImage(frame.canvas.canvasWidth, frame.canvas.canvasHeight, BufferedImage.TYPE_INT_RGB);
         Graphics2D g2d = img.createGraphics();
@@ -58,7 +58,7 @@ public class ControlPanel extends JPanel {
         //   frame.dispose();
     }
 
-    private void load(ActionEvent e) {
+    private void load(ActionEvent event) {
         this.frame.canvas.setCols(10);
         this.frame.canvas.setRows(10);
         this.frame.canvas.init(10, 10);
@@ -69,7 +69,7 @@ public class ControlPanel extends JPanel {
         this.frame.canvas.ok = 0;
     }
 
-    private void exit(ActionEvent e) {
+    private void exit(ActionEvent event) {
         System.out.println("Exit with success!");
         frame.dispose();
     }

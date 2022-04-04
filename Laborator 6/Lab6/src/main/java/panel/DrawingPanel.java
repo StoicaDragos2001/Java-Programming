@@ -138,16 +138,16 @@ public class DrawingPanel extends JPanel {
 
     /**
      * generate random sticks and store them in a file date.txt
-     * @param g
+     * @param graphicAgain
      * @throws IOException if file doesn't exist
      */
-    private void paintSticks(Graphics2D g) throws IOException {
+    private void paintSticks(Graphics2D graphicAgain) throws IOException {
         String content = "";
         String path = "C:\\Users\\Daniela-211021\\IdeaProjects\\Lab6\\date.txt";
         BufferedWriter writer = Files.newBufferedWriter(Paths.get(path));
         writer.write("");
         writer.flush();
-        g.setColor(Color.BLACK);
+        graphicAgain.setColor(Color.BLACK);
         Random random = new Random();
         for (int row = 0; row < rows; row++) {
             for (int col = 0; col < cols; col++) {
@@ -157,18 +157,18 @@ public class DrawingPanel extends JPanel {
                     content += Integer.toString(x);
                     content += " ";
                     content += Integer.toString(y);
-                    g.setColor(Color.BLACK);
-                    g.setStroke(new BasicStroke(3));
+                    graphicAgain.setColor(Color.BLACK);
+                    graphicAgain.setStroke(new BasicStroke(3));
                     if (random.nextInt(2) == 0) {
                         if (row == 0) {
-                            g.drawLine(x, y, x, y + cellHeight);
+                            graphicAgain.drawLine(x, y, x, y + cellHeight);
                             content += " ";
                             content += Integer.toString(x);
                             content += " ";
                             content += Integer.toString(y + cellHeight);
                             content += "\n";
                         } else {
-                            g.drawLine(x, y, x, y - cellHeight);
+                            graphicAgain.drawLine(x, y, x, y - cellHeight);
                             content += " ";
                             content += Integer.toString(x);
                             content += " ";
@@ -177,14 +177,14 @@ public class DrawingPanel extends JPanel {
                         }
                     } else {
                         if (col == 0) {
-                            g.drawLine(x, y, x + cellWidth, y);
+                            graphicAgain.drawLine(x, y, x + cellWidth, y);
                             content += " ";
                             content += Integer.toString(x + cellWidth);
                             content += " ";
                             content += Integer.toString(y);
                             content += "\n";
                         } else {
-                            g.drawLine(x, y, x - cellWidth, y);
+                            graphicAgain.drawLine(x, y, x - cellWidth, y);
                             content += " ";
                             content += Integer.toString(x - cellWidth);
                             content += " ";
@@ -199,34 +199,34 @@ public class DrawingPanel extends JPanel {
     }
 
     /**
-     * we read the coordonate of the sticks from the file and draw each time the constructor from the DrawingPanel is called
+     * we read the coordinate of the sticks from the file and draw each time the constructor from the DrawingPanel is called
      * we generate another sticks when we press create or load
-     * @param g
+     * @param graphicAgain
      * @throws IOException
      */
-    private void paintSticksFromFileText(Graphics2D g) throws IOException {
+    private void paintSticksFromFileText(Graphics2D graphicAgain) throws IOException {
         String path = "C:\\Users\\Daniela-211021\\IdeaProjects\\Lab6\\date.txt";
         File file = new File(
                 path);
         BufferedReader br
                 = new BufferedReader(new FileReader(file));
         String stringFromFile;
-        g.setColor(Color.BLACK);
-        g.setStroke(new BasicStroke(3));
+        graphicAgain.setColor(Color.BLACK);
+        graphicAgain.setStroke(new BasicStroke(3));
         while ((stringFromFile = br.readLine()) != null) {
-            int index = 0, coordonateX1 = 0, coordonateY1 = 0, coordonateX2 = 0, coordonateY2 = 0;
+            int index = 0, coordinateX1 = 0, coordinateY1 = 0, coordinateX2 = 0, coordinateY2 = 0;
             for (String val : stringFromFile.split(" ", 4)) {
                 if (index == 0)
-                    coordonateX1 = Integer.parseInt(val);
+                    coordinateX1 = Integer.parseInt(val);
                 else if (index == 1)
-                    coordonateY1 = Integer.parseInt(val);
+                    coordinateY1 = Integer.parseInt(val);
                 else if (index == 2)
-                    coordonateX2 = Integer.parseInt(val);
+                    coordinateX2 = Integer.parseInt(val);
                 else
-                    coordonateY2 = Integer.parseInt(val);
+                    coordinateY2 = Integer.parseInt(val);
                 index++;
             }
-            g.drawLine(coordonateX1, coordonateY1, coordonateX2, coordonateY2);
+            graphicAgain.drawLine(coordinateX1, coordinateY1, coordinateX2, coordinateY2);
             index = 0;
         }
     }
@@ -247,7 +247,7 @@ public class DrawingPanel extends JPanel {
 
     /**
      *
-     * @return the coordonate of the circles from the file date1.txt
+     * @return the coordinate of the circles from the file date1.txt
      * @throws IOException
      */
     private String readFromFileWithCircles() throws IOException {
@@ -269,10 +269,10 @@ public class DrawingPanel extends JPanel {
      * when the player execute a mouse pressed operation, a stone must be drawn at the mouse location:
      * red or blue depending on whose turn it is
      * validate the move, according to the game rules
-     * @param g
+     * @param graphicAgain
      * @throws IOException
      */
-    private void paintStones(Graphics2D g) throws IOException {
+    private void paintStones(Graphics2D graphicAgain) throws IOException {
         String content = "", content2 = "", content3 = "";
         int gameNotEnd=0;
         String path = "C:\\Users\\Daniela-211021\\IdeaProjects\\Lab6\\date1.txt";
@@ -301,27 +301,27 @@ public class DrawingPanel extends JPanel {
                                     = new BufferedReader(new FileReader(file1));
                             String stringFromFile1;
                             while ((stringFromFile1 = br1.readLine()) != null) {
-                                int index = 0, coordonateX1 = 0, coordonateY1 = 0, coordonateX2 = 0, coordonateY2 = 0;
+                                int index = 0, coordinateX1 = 0, coordinateY1 = 0, coordinateX2 = 0, coordinateY2 = 0;
                                 for (String val : stringFromFile1.split(" ", 4)) {
                                     if (index == 0)
-                                        coordonateX1 = Integer.parseInt(val);
+                                        coordinateX1 = Integer.parseInt(val);
                                     else if (index == 1)
-                                        coordonateY1 = Integer.parseInt(val);
+                                        coordinateY1 = Integer.parseInt(val);
                                     else if (index == 2)
-                                        coordonateX2 = Integer.parseInt(val);
+                                        coordinateX2 = Integer.parseInt(val);
                                     else
-                                        coordonateY2 = Integer.parseInt(val);
+                                        coordinateY2 = Integer.parseInt(val);
                                     index++;
                                 }
-                                if (circlesIndex.getX() + stoneSize / 2 == coordonateX1 && circlesIndex.getY() + stoneSize / 2 == coordonateY1) {
-                                    if (nrPlayer == 0 || (neighbourX == coordonateX2 && neighbourY == coordonateY2)) {
+                                if (circlesIndex.getX() + stoneSize / 2 == coordinateX1 && circlesIndex.getY() + stoneSize / 2 == coordinateY1) {
+                                    if (nrPlayer == 0 || (neighbourX == coordinateX2 && neighbourY == coordinateY2)) {
                                         content += Integer.toString(circlesIndex.getX());
                                         content += " ";
                                         content += Integer.toString(circlesIndex.getY());
                                         content += '\n';
                                         neighbourX = circlesIndex.getX() + stoneSize / 2;
                                         neighbourY = circlesIndex.getY() + stoneSize / 2;
-                                        circlesIndex.draw(g);
+                                        circlesIndex.draw(graphicAgain);
                                         content2="";
                                         content2 += (neighbourX);
                                         content2 += " ";
@@ -403,13 +403,13 @@ public class DrawingPanel extends JPanel {
                                         nrPlayer++;
                                         content2 = "";
                                     }
-                                } else if (circlesIndex.getX() + stoneSize / 2 == coordonateX2 && circlesIndex.getY() + stoneSize / 2 == coordonateY2) {
-                                    if (nrPlayer == 0 || (neighbourX == coordonateX1 && neighbourY == coordonateY1)) {
+                                } else if (circlesIndex.getX() + stoneSize / 2 == coordinateX2 && circlesIndex.getY() + stoneSize / 2 == coordinateY2) {
+                                    if (nrPlayer == 0 || (neighbourX == coordinateX1 && neighbourY == coordinateY1)) {
                                         content += Integer.toString(circlesIndex.getX());
                                         content += " ";
                                         content += Integer.toString(circlesIndex.getY());
                                         content += '\n';
-                                        circlesIndex.draw(g);
+                                        circlesIndex.draw(graphicAgain);
                                         neighbourX = circlesIndex.getX() + stoneSize / 2;
                                         neighbourY = circlesIndex.getY() + stoneSize / 2;
                                         content2="";
@@ -517,10 +517,10 @@ public class DrawingPanel extends JPanel {
 
     /**
      * delete the circles when we press create or load
-     * @param g
+     * @param graphicAgain
      * @throws IOException
      */
-    public void removeCircles(Graphics2D g) throws IOException {
+    public void removeCircles(Graphics2D graphicAgain) throws IOException {
         String path = "C:\\Users\\Daniela-211021\\IdeaProjects\\Lab6\\date1.txt";
         File file = new File(
                 path);
@@ -528,15 +528,15 @@ public class DrawingPanel extends JPanel {
                 = new BufferedReader(new FileReader(file));
         String stringFromFile;
         while ((stringFromFile = br.readLine()) != null) {
-            int index = 0, coordonateX1 = 0, coordonateY1 = 0;
+            int index = 0, coordinateX1 = 0, coordinateY1 = 0;
             for (String val : stringFromFile.split(" ", 2)) {
                 if (index == 0)
-                    coordonateX1 = Integer.parseInt(val);
+                    coordinateX1 = Integer.parseInt(val);
                 else if (index == 1)
-                    coordonateY1 = Integer.parseInt(val);
+                    coordinateY1 = Integer.parseInt(val);
                 index++;
             }
-            g.fillOval(coordonateX1, coordonateY1, stoneSize, stoneSize);
+            graphicAgain.fillOval(coordinateX1, coordinateY1, stoneSize, stoneSize);
             index = 0;
         }
         /*
@@ -544,7 +544,7 @@ public class DrawingPanel extends JPanel {
         for (Circle circlesIndex : circles) {
             System.out.println(circlesIndex.getX() + " " + circlesIndex.getY());
             circlesIndex.setColor(Color.WHITE);
-            circlesIndex.draw(g);
+            circlesIndex.draw(graphicAgain);
         }
         */
     }
