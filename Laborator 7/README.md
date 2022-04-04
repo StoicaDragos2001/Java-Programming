@@ -1,3 +1,5 @@
+@authors: Petrea Daniela 2A5 & Stoica Dragos 2A5
+
 Compulsory
 
 Create an object oriented model of the problem.
