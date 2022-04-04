@@ -1,16 +1,19 @@
 package game;
 
+import jdk.internal.icu.impl.NormalizerImpl;
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class Bag {
-    //private final declare a collection for tiles;
+    private final String a;
+    private ArrayList<String> letters;
+    ArrayList<String> tiles;
     public Bag() {
         for (char c = 'a'; c < 'z'; c++) {
      //       add a new tile to the collection;
         }
     }
-    /*
     public synchronized List<Tile> extractTiles(int howMany) {
         List<Tile> extracted = new ArrayList<>();
         for (int i = 0; i < howMany; i++) {
@@ -21,5 +24,4 @@ public class Bag {
         }
         return extracted;
     }
-     */
 }

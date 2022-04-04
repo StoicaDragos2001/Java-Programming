@@ -1,6 +1,6 @@
 package game;
 
-//import java.util.Dictionary;
+import java.util.Dictionary;
 
 public class Dictionary {
 

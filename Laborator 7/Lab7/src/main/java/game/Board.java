@@ -1,9 +1,10 @@
 package game;
 
+import java.util.ArrayList;
+
 public class Board {
-    /*
-  //  private final a collection for words;
-    public ???????????? void addWord(Player player, String word) {
+    private final ArrayList<String> words;
+    public static void addWord(Player player, String word) {
        // add the word to the collection;
         System.out.println(player.getName() + ": " + word);
     }
@@ -12,5 +13,6 @@ public class Board {
         return words.toString();
     }
 
-     */
+
+
 }
