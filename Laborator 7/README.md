@@ -18,19 +18,19 @@
 
 * Use the following points for the letters:
 
-      * (1 point)-A, E, I, O, U, L, N, S, T, R
+       (1 point)-A, E, I, O, U, L, N, S, T, R
 
-      * (2 points)-D, G
+       (2 points)-D, G
 
-      * (3 points)-B, C, M, P
+       (3 points)-B, C, M, P
 
-      * (4 points)-F, H, V, W, Y
+       (4 points)-F, H, V, W, Y
 
-      * (5 points)-K
+       (5 points)-K
 
-      * (8 points)- J, X
+       (8 points)- J, X
 
-      * (10 points)-Q, Z
+       (10 points)-Q, Z
 
 * Create an implementation of a dictionary, using some collection of words. Use an appropriate collection to represent the dictionary. This collection should be large enough; you may use aspell to generate a text file containing English words, or anything similar: WordNet, dexonline, etc.
 
