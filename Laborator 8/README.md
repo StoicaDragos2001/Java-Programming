@@ -6,9 +6,9 @@
 
 * Write an SQL script that will create the following tables:
 
-countries: id, name, code, continent
+** countries: id, name, code, continent
 
-continents: id, name
+** continents: id, name
 
 * Update pom.xml, in order to add the database driver to the project libraries.
 
