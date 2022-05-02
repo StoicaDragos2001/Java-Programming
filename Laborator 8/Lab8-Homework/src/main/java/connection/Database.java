@@ -4,10 +4,13 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
+/**
+ * Singleton class to manage a connection to the database
+ */
 public class Database {
     private static final String dbURL = "jdbc:oracle:thin:@localhost:1521/xe";
-    private static final String username = "STUDENT";
-    private static final String password = "STUDENT";
+    private static final String username = "Student";
+    private static final String password = "Student";
     private static Connection connection = null;
 
     private Database() {
@@ -17,6 +20,9 @@ public class Database {
         return connection;
     }
 
+    /**
+     * Creates a connection to the database based on url, username and password
+     */
     public static void createConnection() {
         try {
             connection = DriverManager.getConnection(dbURL, username, password);
@@ -27,10 +33,17 @@ public class Database {
         }
     }
 
+    /**
+     * Closes the connection to the database
+     * @throws SQLException
+     */
     public static void closeConnection() throws SQLException {
         connection.close();
     }
 
+    /**
+     * Method to rollback the database
+     */
     public static void rollback() {
     }
 }

@@ -30,19 +30,21 @@ public class Main {
             var cities = new CityDao();
             switch (commandIndex) {
                 case "1": {
-                    continents.findByName("Europe");
+                    System.out.println(continents.findByName("Europe"));
                     continue;
                 }
                 case "2": {
-                    continents.findById(4);
+                    System.out.println(continents.findById(4));
                     continue;
                 }
                 case "3": {
-                    continents.create("continentNou", 100);
+                    continents.create("newContinent", 100);
+                    System.out.println("Continent created!");
                     continue;
                 }
                 case "4": {
-                    countries.create("taraNoua", 100);
+                    countries.create("newCountry", 100);
+                    System.out.println("Country created!");
                     continue;
                 }
                 case "5": {
@@ -67,7 +69,8 @@ public class Main {
                     continue;
                 }
                 case "9": {
-                    cities.create("orasNou", 1000, "taraNoua", 0, "12", "23");
+                    cities.create("newCity", 1000, "newCountry", 0, "12", "23");
+                    System.out.println("City added!");
                     continue;
                 }
                 case "10": {
@@ -90,7 +93,7 @@ public class Main {
     }
 
     public static void shellCommands() throws InterruptedException {
-        TimeUnit.SECONDS.sleep(4);
+        TimeUnit.SECONDS.sleep(1);
         System.out.println("\n\nYou have the next commands:");
         System.out.println("1 - Find a continent by name");
         System.out.println("2 - Find a continent by ID");

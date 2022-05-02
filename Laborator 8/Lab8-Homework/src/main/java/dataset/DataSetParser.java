@@ -1,3 +1,4 @@
+
 package dataset;
 
 import com.opencsv.CSVReader;
@@ -11,10 +12,18 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Class that has the role of parsing the database
+ */
 public abstract class DataSetParser {
 
-    private final static String DATASET_PATH = "C:\\Users\\Daniela-211021\\IdeaProjects\\Lab8-Homework\\concap.csv";
+    private final static String DATASET_PATH = "C:\\Users\\Dragos Stoica\\IdeaProjects\\LABORATOR8\\Lab8-Homework\\concap.csv";
 
+    /**
+     * Method that reads the database and uses its content in local memory
+     * @throws IOException
+     * @throws SQLException
+     */
     public static void putDataInDatabase() throws IOException, SQLException {
         CSVReader csvReader = new CSVReader(new FileReader(DATASET_PATH));
         csvReader.readNext(); // skip the name column row
@@ -25,7 +34,7 @@ public abstract class DataSetParser {
             i++;
             var continents = new ContinentDao();
             if(nameContinents.contains(row[5])==false)
-            continents.create(row[5],i);
+                continents.create(row[5],i);
             nameContinents.add(row[5]);
             var countries = new CountryDao();
             int continentId = continents.findByName(row[5]);
@@ -35,4 +44,3 @@ public abstract class DataSetParser {
         }
     }
 }
-

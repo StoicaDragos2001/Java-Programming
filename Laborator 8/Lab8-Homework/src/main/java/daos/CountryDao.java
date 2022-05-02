@@ -5,8 +5,17 @@ import connection.Database;
 import java.sql.*;
 import java.util.ArrayList;
 
+/**
+ * Data Object Class to create and manipulate country in database
+ */
 public class CountryDao {
 
+    /**
+     * Method to create a country in the database
+     * @param name name of the country
+     * @param continentId id of the continent in which the country is found
+     * @throws SQLException
+     */
     public void create(String name, int continentId) throws SQLException {
         Connection con = Database.getConnection();
         try (PreparedStatement pstmt = con.prepareStatement(
@@ -17,6 +26,10 @@ public class CountryDao {
         }
     }
 
+    /**
+     * method that prints a continent
+     * @param continentId the id of the continent
+     */
     public void print(int continentId) {
         Connection con = Database.getConnection();
         try (Statement stmt = con.createStatement()) {
