@@ -14,20 +14,7 @@ import static dataset.DataSetParser.putDataInDatabase;
 
 public class Main {
     public static void main(String[] args) throws SQLException, InterruptedException, IOException {
-        // shell();
-        bonus();
-    }
-
-    public static void bonus() {
-        HikariConfig config = new HikariConfig();
-        config.setJdbcUrl("jdbc:oracle:thin:@localhost:1521/xe");
-        config.setUsername("STUDENT");
-        config.setPassword("STUDENT");
-        config.addDataSourceProperty("cachePrepStmts", "true");
-        config.addDataSourceProperty("prepStmtCacheSize", "250");
-        config.addDataSourceProperty("prepStmtCacheSqlLimit", "2048");
-        HikariDataSource ds = new HikariDataSource(config);
-
+        shell();
     }
 
     public static void shell() throws SQLException, InterruptedException, IOException {
