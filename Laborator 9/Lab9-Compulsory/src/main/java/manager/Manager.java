@@ -10,7 +10,7 @@ public class Manager {
     private static Manager managerInstance = null;
 
     private Manager() {
-        this.factory = Persistence.createEntityManagerFactory("Lab9_compulsory");
+        this.factory = Persistence.createEntityManagerFactory("Lab9-Compulsory");
         this.manager = factory.createEntityManager();
     }
 

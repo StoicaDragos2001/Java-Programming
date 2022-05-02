@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>Lab9_compulsory</artifactId>
+    <artifactId>Lab9-Compulsory</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>Lab9_compulsory</name>
+    <name>Lab9-Compulsory</name>
     <packaging>war</packaging>
 
     <properties>
