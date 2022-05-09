@@ -1,6 +1,6 @@
 # @authors: Petrea Daniela & Stoica Dragos
 
-Compulsory 
+# Compulsory 
 
 Create a persistence unit (EclipseLink).
 
@@ -20,7 +20,7 @@ Define repository clases for your entities (at least one). They must contain the
       
 Test your application.
 
-Homework 
+# Homework 
 
 Create all entity classes and repositories. Implement properly the one-to-many relationships.
 
