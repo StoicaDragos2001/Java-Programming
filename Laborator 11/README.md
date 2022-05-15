@@ -1,6 +1,6 @@
-@authors: Petrea Daniela & Stoica Dragos
+# @authors: Petrea Daniela & Stoica Dragos
 
-Compulsory (1p)
+# Compulsory (1p)
 
 Create a Spring Boot project containing the REST services for comunicating with the database.
 
