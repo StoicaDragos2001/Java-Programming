@@ -1,0 +1,841 @@
+city,lat,lng,country,iso2,admin_name,capital,population,population_proper
+Bucuresti,44.4,26.0833,Romania,RO,Bucuresti,primary,1883425,1883425
+Timisoara,45.7597,21.23,Romania,RO,Timis,admin,319279,319279
+Cluj-Napoca,46.7667,23.6,Romania,RO,Cluj,admin,316748,282141
+Brasov,45.65,25.6,Romania,RO,Brasov,admin,290743,290743
+Iasi,47.1622,27.5889,Romania,RO,Iasi,admin,290422,290422
+Constanta,44.1733,28.6383,Romania,RO,Constanta,admin,283872,283872
+Craiova,44.3333,23.8167,Romania,RO,Dolj,admin,269506,269506
+Galati,45.4233,28.0425,Romania,RO,Galati,admin,249432,249432
+Ploiesti,44.9386,26.0225,Romania,RO,Prahova,admin,209945,209945
+Oradea,47.0722,21.9211,Romania,RO,Bihor,admin,196367,196367
+Braila,45.2692,27.9575,Romania,RO,Braila,admin,180302,180302
+Arad,46.1667,21.3167,Romania,RO,Arad,admin,159074,159074
+Pitesti,44.8667,24.8833,Romania,RO,Arges,admin,155383,155383
+Sibiu,45.8,24.15,Romania,RO,Sibiu,admin,147245,147245
+Bacau,46.5833,26.9167,Romania,RO,Bacau,admin,144307,144307
+Targu-Mures,46.5497,24.5597,Romania,RO,Mures,admin,134290,134290
+Baia Mare,47.6597,23.5819,Romania,RO,Maramures,admin,123738,123738
+Buzau,45.1517,26.8167,Romania,RO,Buzau,admin,115494,115494
+Botosani,47.7486,26.6694,Romania,RO,Botosani,admin,106847,106847
+Satu Mare,47.79,22.89,Romania,RO,Satu Mare,admin,102411,102411
+Ramnicu Valcea,45.1047,24.3756,Romania,RO,Valcea,admin,98776,98776
+Drobeta-Turnu Severin,44.6361,22.6556,Romania,RO,Mehedinti,admin,92617,92617
+Tulcea,45.1993,28.7967,Romania,RO,Tulcea,admin,92475,86288
+Suceava,47.6514,26.2556,Romania,RO,Suceava,admin,92121,92121
+Piatra Neamt,46.9275,26.3708,Romania,RO,Neamt,admin,85055,85055
+Resita,45.297,21.8865,Romania,RO,Caras-Severin,admin,83324,81228
+Targu Jiu,45.0342,23.2747,Romania,RO,Gorj,admin,82504,82504
+Targoviste,44.9244,25.4572,Romania,RO,Dambovita,admin,79610,79610
+Focsani,45.6997,27.1797,Romania,RO,Vrancea,admin,79315,79315
+Bistrita,47.1333,24.4833,Romania,RO,Bistrita-Nasaud,admin,75076,75076
+Slatina,44.4297,24.3642,Romania,RO,Olt,admin,70293,70293
+Calarasi,44.2,27.3333,Romania,RO,Calarasi,admin,65181,65181
+Alba Iulia,46.0764,23.5728,Romania,RO,Alba,admin,63536,63536
+Giurgiu,43.9,25.9667,Romania,RO,Giurgiu,admin,61353,61353
+Deva,45.8719,22.9117,Romania,RO,Hunedoara,,61123,61123
+Hunedoara,45.7697,22.9203,Romania,RO,Hunedoara,admin,60525,60525
+Zalau,47.1911,23.0572,Romania,RO,Salaj,admin,56202,56202
+Sfantu-Gheorghe,45.8636,25.7875,Romania,RO,Covasna,admin,56006,56006
+Barlad,46.2167,27.6667,Romania,RO,Vaslui,,55837,55837
+Vaslui,46.6383,27.7292,Romania,RO,Vaslui,admin,55407,55407
+Roman,46.93,26.93,Romania,RO,Neamt,,50713,50713
+Turda,46.5667,23.7833,Romania,RO,Cluj,,47744,47744
+Medias,46.1639,24.3508,Romania,RO,Sibiu,,47204,47204
+Slobozia,44.5639,27.3661,Romania,RO,Ialomita,admin,45891,45891
+Alexandria,43.9686,25.3333,Romania,RO,Teleorman,admin,45434,45434
+Voluntari,44.4925,26.1914,Romania,RO,Bucuresti,,42944,42944
+Miercurea-Ciuc,46.361,25.524,Romania,RO,Harghita,admin,42029,37980
+Lugoj,45.6861,21.9006,Romania,RO,Timis,,40361,40361
+Medgidia,44.2503,28.2614,Romania,RO,Constanta,,39780,39780
+Onesti,46.25,26.7667,Romania,RO,Bacau,,39172,39172
+Sighetu Marmatiei,47.9309,23.8947,Romania,RO,Maramures,,37640,37640
+Petrosani,45.4122,23.3733,Romania,RO,Hunedoara,,37160,37160
+Mangalia,43.8172,28.5828,Romania,RO,Constanta,,36364,36364
+Tecuci,45.8467,27.4278,Romania,RO,Galati,,34871,34871
+Odorheiu Secuiesc,46.3139,25.3017,Romania,RO,Harghita,,34257,34257
+Ramnicu Sarat,45.38,27.06,Romania,RO,Buzau,,33843,33843
+Pascani,47.2519,26.7231,Romania,RO,Iasi,,33745,33745
+Dej,47.0872,23.8053,Romania,RO,Cluj,,33497,33497
+Reghin,46.7758,24.7083,Romania,RO,Mures,,33281,33281
+Navodari,44.3208,28.6125,Romania,RO,Constanta,,32981,32981
+Campina,45.1281,25.7383,Romania,RO,Prahova,,32935,32935
+Mioveni,44.9553,24.9356,Romania,RO,Arges,,31998,31998
+Campulung,45.275,25.05,Romania,RO,Arges,,31767,31767
+Caracal,44.1,24.3333,Romania,RO,Olt,,30954,30954
+Sacele,45.6175,25.6878,Romania,RO,Brasov,,30798,30798
+Fagaras,45.8422,24.9714,Romania,RO,Brasov,,30714,30714
+Fetesti,44.415,27.8236,Romania,RO,Ialomita,,30217,30217
+Sighisoara,46.2169,24.7911,Romania,RO,Mures,,28102,28102
+Borsa,47.6553,24.6631,Romania,RO,Maramures,,27611,27611
+Rosiori de Vede,44.065,24.9655,Romania,RO,Teleorman,,27416,27416
+Curtea de Arges,45.1167,24.6667,Romania,RO,Arges,,27359,27359
+Sebes,45.9547,23.57,Romania,RO,Alba,,27019,27019
+Husi,46.6731,28.0647,Romania,RO,Vaslui,,26266,26266
+Falticeni,47.4625,26.3,Romania,RO,Suceava,,25723,25723
+Pantelimon,44.4528,26.2036,Romania,RO,Ilfov,,25596,25596
+Oltenita,44.0864,26.6364,Romania,RO,Calarasi,,24822,24822
+Turnu Magurele,43.7517,24.8708,Romania,RO,Teleorman,,24772,24772
+Caransebes,45.4214,22.2219,Romania,RO,Caras-Severin,,24689,24689
+Dorohoi,47.9597,26.3997,Romania,RO,Botosani,,24309,24309
+Vulcan,45.3811,23.2914,Romania,RO,Hunedoara,,24160,24160
+Radauti,47.8425,25.9192,Romania,RO,Suceava,,23822,23822
+Zarnesti,45.5725,25.3431,Romania,RO,Brasov,,23476,23476
+Lupeni,45.3603,23.2383,Romania,RO,Hunedoara,,23390,23390
+Aiud,46.3103,23.7167,Romania,RO,Alba,,22876,22876
+Petrila,45.4511,23.3981,Romania,RO,Hunedoara,,22692,22692
+Campia Turzii,46.5444,23.8792,Romania,RO,Cluj,,22223,22223
+Buftea,44.57,25.95,Romania,RO,Ilfov,,22178,22178
+Tarnaveni,46.3297,24.27,Romania,RO,Mures,,22075,22075
+Popesti-Leordeni,44.38,26.17,Romania,RO,Ilfov,,21895,21895
+Moinesti,46.4847,26.4964,Romania,RO,Bacau,,21787,21787
+Codlea,45.6958,25.4497,Romania,RO,Brasov,,21708,21708
+Cugir,45.8436,23.3636,Romania,RO,Alba,,21376,21376
+Carei,47.69,22.47,Romania,RO,Satu Mare,,21112,21112
+Gherla,47.02,23.9,Romania,RO,Cluj,,20982,20982
+Scobinti,47.4016,26.9141,Romania,RO,Iasi,,20700,20700
+Blaj,46.1753,23.9144,Romania,RO,Alba,,20630,20630
+Floresti,46.7475,23.4908,Romania,RO,Cluj,,20256,20256
+Comanesti,46.4132,26.4362,Romania,RO,Bacau,,19568,19568
+Motru,44.8042,22.9694,Romania,RO,Gorj,,19079,19079
+Targu Neamt,47.2025,26.3586,Romania,RO,Neamt,,18695,18695
+Moreni,44.9803,25.6444,Romania,RO,Dambovita,,18687,18687
+Toflea,46.0637,27.3341,Romania,RO,Galati,,18521,18521
+Targu Secuiesc,45.9969,26.1406,Romania,RO,Covasna,,18491,18491
+Gheorgheni,46.72,25.59,Romania,RO,Harghita,,18377,18377
+Orastie,45.8403,23.1994,Romania,RO,Hunedoara,,18227,18227
+Bals,44.3542,24.0986,Romania,RO,Olt,,18164,18164
+Baicoi,45.0453,25.8658,Romania,RO,Prahova,,17981,17981
+Dragasani,44.6611,24.2639,Romania,RO,Valcea,,17871,17871
+Salonta,46.8,21.65,Romania,RO,Bihor,,17735,17735
+Bailesti,44.0308,23.3525,Romania,RO,Dolj,,17437,17437
+Calafat,43.9858,22.9575,Romania,RO,Dolj,,17336,17336
+Cernavoda,44.3381,28.0336,Romania,RO,Ialomita,,17022,17022
+Filiasi,44.5539,23.529,Romania,RO,Dolj,,16900,16900
+Campulung Moldovenesc,47.5308,25.5514,Romania,RO,Suceava,,16722,16722
+Corabia,43.7736,24.5033,Romania,RO,Olt,,16441,16441
+Adjud,46.1,27.1797,Romania,RO,Vrancea,,16045,16045
+Breaza,45.1872,25.6622,Romania,RO,Prahova,,15928,15928
+Bocsa,45.3747,21.7106,Romania,RO,Caras-Severin,,15842,15842
+Marghita,47.35,22.3333,Romania,RO,Bihor,,15770,15770
+Baia-Sprie,47.6608,23.6886,Romania,RO,Maramures,,15476,15476
+Bragadiru,44.3694,25.9753,Romania,RO,Ilfov,,15329,15329
+Ludus,46.4778,24.0961,Romania,RO,Mures,,15328,15328
+Urziceni,44.7181,26.6453,Romania,RO,Ialomita,,15308,15308
+Viseu de Sus,47.7111,24.4264,Romania,RO,Maramures,,15037,15037
+Rasnov,45.5931,25.4603,Romania,RO,Brasov,,15022,15022
+Buhusi,46.715,26.7042,Romania,RO,Bacau,,14562,14562
+Brad,46.1294,22.79,Romania,RO,Hunedoara,,14495,14495
+Vatra Dornei,47.35,25.3667,Romania,RO,Suceava,,14429,14429
+Mizil,45,26.4406,Romania,RO,Prahova,,14312,14312
+Cisnadie,45.7128,24.1508,Romania,RO,Sibiu,,14282,14282
+Pucioasa,45.0742,25.4342,Romania,RO,Dambovita,,14254,14254
+Chitila,44.5172,25.9753,Romania,RO,Ilfov,,14184,14184
+Zimnicea,43.6539,25.365,Romania,RO,Teleorman,,14058,14058
+Toplita,46.9918,25.3709,Romania,RO,Harghita,,13929,13929
+Otopeni,44.55,26.07,Romania,RO,Ilfov,,13861,13861
+Ovidiu,44.27,28.56,Romania,RO,Constanta,,13847,13847
+Gura Humorului,47.5542,25.8875,Romania,RO,Suceava,,13667,13667
+Jimbolia,45.7917,20.7222,Romania,RO,Timis,,13597,13597
+Gaesti,44.7208,25.3147,Romania,RO,Dambovita,,13317,13317
+Vicovu de Sus,47.9258,25.68,Romania,RO,Suceava,,13308,13308
+Ocna Mures,46.39,23.86,Romania,RO,Alba,,13036,13036
+Bolintin Vale,44.4472,25.7572,Romania,RO,Giurgiu,,12929,12929
+Avrig,45.7081,24.4,Romania,RO,Sibiu,,12815,12815
+Pecica,46.17,21.07,Romania,RO,Arad,,12762,12762
+Simeria,45.85,23.01,Romania,RO,Hunedoara,,12556,12556
+Valu lui Traian,44.165,28.455,Romania,RO,Constanta,,12376,12376
+Moldova Noua,44.7347,21.6664,Romania,RO,Caras-Severin,,12350,12350
+Cumpana,44.1128,28.5558,Romania,RO,Constanta,,12333,12333
+Sannicolau Mare,46.0722,20.6294,Romania,RO,Timis,,12312,12312
+Darmanesti,46.37,26.4797,Romania,RO,Bacau,,12247,12247
+Jilava,44.3333,26.0833,Romania,RO,Ilfov,,12223,12223
+Dabuleni,43.8011,24.0919,Romania,RO,Dolj,,12175,12175
+Comarnic,45.2511,25.6353,Romania,RO,Prahova,,11970,11970
+Negresti-Oas,47.8694,23.4242,Romania,RO,Satu Mare,,11867,11867
+Rovinari,44.9125,23.1622,Romania,RO,Gorj,,11816,11816
+Scornicesti,44.57,24.55,Romania,RO,Olt,,11766,11766
+Targu Lapus,47.4525,23.8631,Romania,RO,Maramures,,11744,11744
+Valenii de Munte,45.1856,26.0397,Romania,RO,Prahova,,11707,11707
+Matca,45.85,27.5333,Romania,RO,Galati,,11605,11605
+Sacueni,47.3525,22.0914,Romania,RO,Bihor,,11526,11526
+Videle,44.2833,25.5333,Romania,RO,Teleorman,,11508,11508
+Santana,46.35,21.5,Romania,RO,Arad,,11428,11428
+Oravita,45.0333,21.6833,Romania,RO,Caras-Severin,,11382,11382
+Targu Ocna,46.2803,26.6094,Romania,RO,Bacau,,11300,11300
+Calan,45.7361,23.0086,Romania,RO,Hunedoara,,11279,11279
+Boldesti-Scaeni,45.03,26.03,Romania,RO,Prahova,,11137,11137
+Magurele,44.3461,25.9999,Romania,RO,Ilfov,,11041,11041
+Harlau,47.4278,26.9114,Romania,RO,Iasi,,10905,10905
+Draganesti-Olt,44.1697,24.53,Romania,RO,Olt,,10894,10894
+Cristuru Secuiesc,46.2917,25.0353,Romania,RO,Harghita,,10796,10796
+Poiana Mare,43.9127,23.094,Romania,RO,Dolj,,10740,10740
+Marasesti,45.88,27.23,Romania,RO,Vrancea,,10671,10671
+Beius,46.65,22.35,Romania,RO,Bihor,,10667,10667
+Beclean,47.1797,24.1797,Romania,RO,Bistrita-Nasaud,,10628,10628
+Urlati,44.9911,26.2306,Romania,RO,Prahova,,10541,10541
+Otelu Rosu,45.5333,22.3667,Romania,RO,Caras-Severin,,10510,10510
+Strehaia,44.6222,23.1972,Romania,RO,Mehedinti,,10506,10506
+Targu Frumos,47.2097,27.0131,Romania,RO,Iasi,,10475,10475
+Orsova,44.7253,22.3961,Romania,RO,Mehedinti,,10441,10441
+Sinaia,45.35,25.5514,Romania,RO,Prahova,,10410,10410
+Jibou,47.2583,23.2583,Romania,RO,Salaj,,10407,10407
+Sovata,46.5961,25.0744,Romania,RO,Mures,,10385,10385
+Costesti,44.6697,24.88,Romania,RO,Arges,,10375,10375
+Ianca,45.135,27.4747,Romania,RO,Braila,,10343,10343
+Lipova,46.0894,21.6914,Romania,RO,Arad,,10313,10313
+Dolhasca,47.4303,26.6094,Romania,RO,Suceava,,10298,10298
+Topoloveni,44.8069,25.0839,Romania,RO,Arges,,10219,10219
+Murfatlar,44.1736,28.4083,Romania,RO,Constanta,,10216,10216
+Nehoiu,45.4153,26.3082,Romania,RO,Buzau,,10211,10211
+Flamanzi,47.5644,26.8728,Romania,RO,Botosani,,10136,10136
+Pechea,45.6333,27.8,Romania,RO,Galati,,10126,10126
+Covasna,45.8492,26.1853,Romania,RO,Covasna,,10114,10114
+Poienile de sub Munte,47.8167,24.4333,Romania,RO,Maramures,,10073,10073
+Alesd,47.0572,22.3969,Romania,RO,Bihor,,10066,10066
+Valea lui Mihai,47.52,22.13,Romania,RO,Bihor,,9902,9902
+Darabani,48.1864,26.5892,Romania,RO,Botosani,,9893,9893
+Hateg,45.6075,22.95,Romania,RO,Hunedoara,,9685,9685
+Sangeorz-Bai,47.37,24.68,Romania,RO,Bistrita-Nasaud,,9679,9679
+Titu,44.6622,25.5736,Romania,RO,Dambovita,,9658,9658
+Harsova,44.6833,27.9519,Romania,RO,Constanta,,9642,9642
+Liteni,47.52,26.5319,Romania,RO,Suceava,,9596,9596
+Podu Iloaiei,47.2167,27.2667,Romania,RO,Iasi,,9573,9573
+Odobesti,45.7497,27.1155,Romania,RO,Vrancea,,9364,9364
+Huedin,46.8738,23.0041,Romania,RO,Cluj,,9346,9346
+Moisei,47.654,24.5507,Romania,RO,Maramures,,9264,9264
+Ineu,46.4258,21.8369,Romania,RO,Arad,,9260,9260
+Salcea,47.65,26.37,Romania,RO,Suceava,,9015,9015
+Seini,47.7478,23.2853,Romania,RO,Maramures,,8987,8987
+Uricani,45.3364,23.1525,Romania,RO,Hunedoara,,8972,8972
+Babadag,44.8933,28.7119,Romania,RO,Tulcea,,8940,8940
+Bumbesti-Jiu,45.1786,23.3814,Romania,RO,Gorj,,8932,8932
+Liesti,45.616,27.5442,Romania,RO,Galati,,8902,8902
+Busteni,45.4153,25.5375,Romania,RO,Prahova,,8894,8894
+Sangeorgiu de Mures,46.5764,24.6042,Romania,RO,Mures,,8800,8800
+Agnita,45.9733,24.6172,Romania,RO,Sibiu,,8732,8732
+Sabaoani,47.0131,26.8657,Romania,RO,Neamt,,8722,8722
+Iernut,46.4533,24.2333,Romania,RO,Mures,,8705,8705
+Baraolt,46.075,25.6,Romania,RO,Covasna,,8672,8672
+Tasnad,47.4772,22.5833,Romania,RO,Satu Mare,,8631,8631
+Bicaz,46.9108,26.0911,Romania,RO,Neamt,,8626,8626
+Roznov,46.8356,26.5117,Romania,RO,Neamt,,8593,8593
+Marginea,47.8167,25.8333,Romania,RO,Suceava,,8552,8552
+Babeni,44.975,24.2311,Romania,RO,Valcea,,8451,8451
+Negresti,46.8403,27.4417,Romania,RO,Vaslui,,8380,8380
+Recas,45.8014,21.5133,Romania,RO,Timis,,8336,8336
+Mihail Kogalniceanu,44.3667,28.4583,Romania,RO,Constanta,,8319,8319
+Macin,45.2456,28.1231,Romania,RO,Tulcea,,8245,8245
+Tomesti,47.1333,27.7,Romania,RO,Iasi,,8126,8126
+Targu Carbunesti,44.9583,23.5064,Romania,RO,Gorj,,8034,8034
+Rosu,44.4509,26.0083,Romania,RO,Bucuresti,,8020,8020
+Chisineu Cris,46.5225,21.5158,Romania,RO,Arad,,7987,7987
+Borcea,44.3294,27.7315,Romania,RO,Calarasi,,7986,7986
+Siret,47.95,26.06,Romania,RO,Suceava,,7976,7976
+Mihailesti,44.3239,25.9069,Romania,RO,Giurgiu,,7923,7923
+Afumati,44.5255,26.2496,Romania,RO,Ilfov,,7919,7919
+Domnesti,44.3979,25.9175,Romania,RO,Ilfov,,7910,7910
+Prim Decembrie,44.2881,26.06,Romania,RO,Ilfov,,7817,7817
+Lumina,44.2833,28.5667,Romania,RO,Constanta,,7800,7800
+Budesti,44.23,26.45,Romania,RO,Calarasi,,7725,7725
+Panciu,45.91,27.09,Romania,RO,Vrancea,,7664,7664
+Vlahita,46.35,25.53,Romania,RO,Harghita,,7649,7649
+Campeni,46.3625,23.0456,Romania,RO,Alba,,7629,7629
+Mogosoaia,44.5324,26,Romania,RO,Ilfov,,7625,7625
+Calimanesti,45.2392,24.3433,Romania,RO,Valcea,,7622,7622
+Fieni,45.1222,25.4183,Romania,RO,Dambovita,,7587,7587
+Modelu,44.1962,27.3852,Romania,RO,Calarasi,,7564,7564
+intorsura Buzaului,45.6728,26.0342,Romania,RO,Covasna,,7528,7528
+Dumbravita,45.8019,21.2475,Romania,RO,Timis,,7522,7522
+Zlatna,46.1589,23.2211,Romania,RO,Alba,,7490,7490
+Anina,45.0917,21.8533,Romania,RO,Caras-Severin,,7485,7485
+Chirnogi,44.1167,26.5833,Romania,RO,Calarasi,,7455,7455
+Curtici,46.3419,21.3061,Romania,RO,Arad,,7453,7453
+Nadlac,46.1667,20.75,Romania,RO,Arad,,7398,7398
+Dumbraveni,46.2275,24.5758,Romania,RO,Sibiu,,7388,7388
+Victoria,45.6466,24.7059,Romania,RO,Brasov,,7386,7386
+Amara,44.62,27.32,Romania,RO,Ialomita,,7345,7345
+Branesti,44.4576,26.335,Romania,RO,Ilfov,,7305,7305
+Patarlagele,45.3189,26.3597,Romania,RO,Buzau,,7304,7304
+Techirghiol,44.0575,28.5958,Romania,RO,Constanta,,7292,7292
+Pogoanele,44.9167,27,Romania,RO,Buzau,,7275,7275
+Ulmeni,47.4656,23.3003,Romania,RO,Maramures,,7270,7270
+Turceni,44.6794,23.3731,Romania,RO,Gorj,,7269,7269
+Cehu Silvaniei,47.412,23.18,Romania,RO,Salaj,,7214,7214
+Tautii Magherus,47.6678,23.4722,Romania,RO,Maramures,,7136,7136
+Murgeni,46.2,28.0167,Romania,RO,Vaslui,,7119,7119
+Tismana,45.0506,22.9489,Romania,RO,Gorj,,7035,7035
+Buzias,45.65,21.6,Romania,RO,Timis,,7023,7023
+Segarcea,44.0919,23.7334,Romania,RO,Dolj,,7019,7019
+Dumbraveni,47.661,26.4246,Romania,RO,Suceava,,7002,7002
+Saveni,47.9533,26.8589,Romania,RO,Botosani,,6999,6999
+Pancota,46.3225,21.6869,Romania,RO,Arad,,6946,6946
+Ungheni,46.4858,24.4608,Romania,RO,Mures,,6945,6945
+Sarmasu,46.7536,24.1667,Romania,RO,Mures,,6942,6942
+Racari,44.6333,25.7333,Romania,RO,Dambovita,,6930,6930
+Talmaciu,45.6667,24.2611,Romania,RO,Sibiu,,6905,6905
+Cajvana,47.7044,25.9694,Romania,RO,Suceava,,6901,6901
+Fundulea,44.4528,26.5153,Romania,RO,Calarasi,,6851,6851
+Livada,47.8667,23.1333,Romania,RO,Satu Mare,,6773,6773
+Faget,45.85,22.18,Romania,RO,Timis,,6761,6761
+Tuzla,44,28.6333,Romania,RO,Constanta,,6711,6711
+Sadova,43.9,23.9667,Romania,RO,Dolj,,6705,6705
+Teius,46.2,23.68,Romania,RO,Alba,,6695,6695
+Diosig,47.3,22,Romania,RO,Bihor,,6529,6529
+insuratei,44.9167,27.6,Romania,RO,Braila,,6528,6528
+Lehliu-Gara,44.4386,26.8533,Romania,RO,Calarasi,,6502,6502
+Cobadin,44.0627,28.2349,Romania,RO,Constanta,,6483,6483
+Gilau,46.75,23.3833,Romania,RO,Cluj,,6464,6464
+Vladimirescu,46.15,21.4,Romania,RO,Arad,,6445,6445
+Dancu,47.153,27.6619,Romania,RO,Iasi,,6444,6444
+Peretu,44.05,25.0833,Romania,RO,Teleorman,,6329,6329
+Cudalbi,45.7833,27.7,Romania,RO,Galati,,6319,6319
+Bosanci,47.5833,26.3167,Romania,RO,Suceava,,6304,6304
+Piatra Olt,44.3603,24.2942,Romania,RO,Olt,,6299,6299
+Bujor,45.8667,27.9,Romania,RO,Galati,,6299,6299
+Balotesti,44.6128,26.0787,Romania,RO,Ilfov,,6286,6286
+Horezu,45.1433,23.9917,Romania,RO,Valcea,,6263,6263
+Deta,45.4,21.22,Romania,RO,Timis,,6260,6260
+Ardud,47.6333,22.8833,Romania,RO,Satu Mare,,6231,6231
+Lunca Cetatuii,47.0931,27.5662,Romania,RO,Iasi,,6227,6227
+Dragalina,44.4346,27.3318,Romania,RO,Calarasi,,6218,6218
+Remetea,46.7935,25.4503,Romania,RO,Harghita,,6165,6165
+Balan,46.6497,25.81,Romania,RO,Harghita,,6115,6115
+Sandominic,46.5833,25.7833,Romania,RO,Harghita,,6110,6110
+Strejnicu,44.9176,25.9563,Romania,RO,Prahova,,6108,6108
+Baciu,46.7928,23.525,Romania,RO,Cluj,,6100,6100
+Roseti,44.2106,27.4481,Romania,RO,Calarasi,,6070,6070
+Cornetu,44.3434,25.9421,Romania,RO,Ilfov,,6040,6040
+Slanic,45.2333,25.9392,Romania,RO,Prahova,,6034,6034
+Brezoi,45.3442,24.2394,Romania,RO,Valcea,,6022,6022
+Sebis,46.3728,22.1294,Romania,RO,Arad,,5979,5979
+Apahida,46.8078,23.74,Romania,RO,Cluj,,5966,5966
+Berceni,44.3167,26.1833,Romania,RO,Ilfov,,5942,5942
+Vicovu de Jos,47.9011,25.7266,Romania,RO,Suceava,,5925,5925
+Savinesti,46.8602,26.4687,Romania,RO,Neamt,,5921,5921
+Barbulesti,44.7261,26.5992,Romania,RO,Ialomita,,5902,5902
+Plosca,44.0236,25.1488,Romania,RO,Teleorman,,5900,5900
+Frasin,47.5183,25.7819,Romania,RO,Suceava,,5876,5876
+Gataia,45.4333,21.4333,Romania,RO,Timis,,5861,5861
+Feldru,47.2833,24.6,Romania,RO,Bistrita-Nasaud,,5760,5760
+Potcoava,44.491,24.6083,Romania,RO,Olt,,5743,5743
+Peris,44.6833,26.0167,Romania,RO,Ilfov,,5682,5682
+Fundeni,44.3833,26.3667,Romania,RO,Calarasi,,5658,5658
+Giroc,45.7,21.2333,Romania,RO,Timis,,5652,5652
+Oituz,46.2039,26.6231,Romania,RO,Bacau,,5623,5623
+Rucar,45.3886,25.1741,Romania,RO,Arges,,5610,5610
+Curcani,44.1985,26.5882,Romania,RO,Calarasi,,5609,5609
+Macea,46.38,21.33,Romania,RO,Arad,,5600,5600
+Rodna,47.4217,24.8122,Romania,RO,Bistrita-Nasaud,,5587,5587
+Miercurea Nirajului,46.53,24.8,Romania,RO,Mures,,5554,5554
+Ruscova,47.7883,24.2808,Romania,RO,Maramures,,5541,5541
+Brosteni,47.2442,25.6981,Romania,RO,Suceava,,5506,5506
+Glina,44.3833,26.25,Romania,RO,Ilfov,,5494,5494
+Novaci-Straini,45.18,23.67,Romania,RO,Gorj,,5431,5431
+Saliste,45.7942,23.8864,Romania,RO,Sibiu,,5421,5421
+Copsa Mica,46.1125,24.2306,Romania,RO,Sibiu,,5404,5404
+Motatei,44.1,23.2,Romania,RO,Dolj,,5403,5403
+Gugesti,45.567,27.1287,Romania,RO,Vrancea,,5394,5394
+Sancraiu de Mures,46.55,24.52,Romania,RO,Mures,,5385,5385
+Baia de Arama,45,22.8114,Romania,RO,Mehedinti,,5349,5349
+Ciacova,45.5,21.1333,Romania,RO,Timis,,5348,5348
+Maieru,47.4003,24.7467,Romania,RO,Bistrita-Nasaud,,5326,5326
+Vanju-Mare,44.4319,22.8769,Romania,RO,Mehedinti,,5311,5311
+Prejmer,45.7205,25.7715,Romania,RO,Brasov,,5297,5297
+Geoagiu,45.92,23.2,Romania,RO,Hunedoara,,5294,5294
+Dobroesti,44.451,26.1833,Romania,RO,Ilfov,,5274,5274
+Rupea,46.0389,25.2225,Romania,RO,Brasov,,5269,5269
+Arbore,47.7313,25.92,Romania,RO,Suceava,,5259,5259
+Homocea,46.1375,27.2412,Romania,RO,Vrancea,,5250,5250
+Corund,46.4667,25.1833,Romania,RO,Harghita,,5228,5228
+Tufesti,44.9914,27.8097,Romania,RO,Braila,,5226,5226
+Giarmata,45.8367,21.31,Romania,RO,Timis,,5210,5210
+Baia,47.4183,26.219,Romania,RO,Suceava,,5197,5197
+Sangeorgiu de Padure,46.4303,24.8417,Romania,RO,Mures,,5166,5166
+Horodnicu de Sus,47.8356,25.8354,Romania,RO,Suceava,,5136,5136
+Greci,45.1833,28.2333,Romania,RO,Tulcea,,5117,5117
+Tudora,47.5167,26.6333,Romania,RO,Botosani,,5096,5096
+Straja,47.92,25.55,Romania,RO,Suceava,,5094,5094
+Negru Voda,43.8181,28.2125,Romania,RO,Constanta,,5088,5088
+Rasinari,45.7,24.0667,Romania,RO,Sibiu,,5086,5086
+Abrud,46.2739,23.05,Romania,RO,Alba,,5072,5072
+Ostrov,44.102,27.4017,Romania,RO,Constanta,,5069,5069
+Raducaneni,46.9659,27.9231,Romania,RO,Iasi,,5065,5065
+Paunesti,46.0323,27.1134,Romania,RO,Vrancea,,5034,5034
+Isaccea,45.2697,28.4597,Romania,RO,Tulcea,,5026,5026
+Baile Herculane,44.8772,22.4175,Romania,RO,Caras-Severin,,5008,5008
+Tunari,44.5472,26.1413,Romania,RO,Ilfov,,5007,5007
+Milisauti,47.7864,26.0044,Romania,RO,Suceava,,5005,5005
+Valea Lupului,47.1774,27.5021,Romania,RO,Iasi,,4982,4982
+Cavnic,47.6608,23.8778,Romania,RO,Maramures,,4976,4976
+Fierbinti-Targ,44.6833,26.3833,Romania,RO,Ilfov,,4969,4969
+Ulmeni,44.15,26.7167,Romania,RO,Calarasi,,4962,4962
+Filipestii de Padure,44.9981,25.7431,Romania,RO,Prahova,,4955,4955
+Volovat,47.8033,25.8941,Romania,RO,Suceava,,4952,4952
+Viseu de Jos,47.725,24.3669,Romania,RO,Maramures,,4934,4934
+Corbu,44.3833,28.65,Romania,RO,Constanta,,4908,4908
+Salistea de Sus,47.6497,24.35,Romania,RO,Maramures,,4893,4893
+Tudor Vladimirescu,45.5634,27.6489,Romania,RO,Galati,,4872,4872
+Ditrau,46.8167,25.5167,Romania,RO,Harghita,,4867,4867
+Balcesti,44.6132,23.9256,Romania,RO,Valcea,,4864,4864
+Agigea,44.0915,28.6104,Romania,RO,Constanta,,4853,4853
+Berbesti,44.9882,23.8682,Romania,RO,Valcea,,4836,4836
+Sanpetru,45.7063,25.6323,Romania,RO,Brasov,,4819,4819
+Izbiceni,43.8206,24.6608,Romania,RO,Olt,,4807,4807
+Facaeni,44.57,27.9,Romania,RO,Ialomita,,4795,4795
+Cernele,44.3344,23.7444,Romania,RO,Dolj,,4783,4783
+Bucov,44.9742,26.0841,Romania,RO,Prahova,,4783,4783
+Cetate,44.1114,23.0476,Romania,RO,Dolj,,4781,4781
+Predeal,45.5047,25.5786,Romania,RO,Brasov,,4755,4755
+Cristesti,46.5,24.4833,Romania,RO,Mures,,4754,4754
+Joseni,46.7,25.5,Romania,RO,Harghita,,4749,4749
+Marsani,44.0167,24.0167,Romania,RO,Dolj,,4745,4745
+Desa,43.8667,23.0333,Romania,RO,Dolj,,4740,4740
+Corod,45.9,27.6167,Romania,RO,Galati,,4729,4729
+Vanatori-Neamt,47.2157,26.3136,Romania,RO,Neamt,,4726,4726
+Repedea,47.8321,24.4014,Romania,RO,Maramures,,4716,4716
+Clinceni,44.3787,25.9412,Romania,RO,Ilfov,,4708,4708
+Baleni Sarbi,44.8263,25.6446,Romania,RO,Dambovita,,4707,4707
+Ghimbav,45.6628,25.5061,Romania,RO,Brasov,,4698,4698
+Halaucesti,47.1,26.8,Romania,RO,Iasi,,4661,4661
+Harman,45.7068,25.6856,Romania,RO,Brasov,,4659,4659
+Bascov,44.9,24.8167,Romania,RO,Arges,,4653,4653
+Poarta Alba,44.2027,28.3969,Romania,RO,Constanta,,4637,4637
+Zorleni,46.2659,27.7216,Romania,RO,Vaslui,,4621,4621
+Tinca,46.7667,21.95,Romania,RO,Bihor,,4614,4614
+Ghiroda,45.7667,21.3,Romania,RO,Timis,,4605,4605
+Ghelinta,45.9432,26.2411,Romania,RO,Covasna,,4600,4600
+Cleja,46.4098,26.918,Romania,RO,Bacau,,4598,4598
+Sacalaz,45.7597,21.1108,Romania,RO,Timis,,4596,4596
+Suraia,45.6819,27.3837,Romania,RO,Vrancea,,4595,4595
+Doicesti,44.9992,25.3995,Romania,RO,Dambovita,,4584,4584
+Ivesti,45.6848,27.518,Romania,RO,Galati,,4571,4571
+Cosereni,44.6829,26.5638,Romania,RO,Ialomita,,4570,4570
+Patrauti,47.7189,26.1915,Romania,RO,Suceava,,4567,4567
+Chiajna,44.4594,25.9784,Romania,RO,Ilfov,,4511,4511
+Periam,46.045,20.8692,Romania,RO,Timis,,4505,4505
+Cristian,45.6288,25.4833,Romania,RO,Brasov,,4490,4490
+Viisoara,46.5579,23.9098,Romania,RO,Cluj,,4488,4488
+Crasna,47.16,22.8747,Romania,RO,Salaj,,4463,4463
+Belcesti,47.3167,27.1,Romania,RO,Iasi,,4462,4462
+Cioranii de Jos,44.8207,26.4134,Romania,RO,Prahova,,4443,4443
+Azuga,45.445,25.5553,Romania,RO,Prahova,,4440,4440
+Islaz,43.7333,24.75,Romania,RO,Teleorman,,4416,4416
+Moara Vlasiei,44.6422,26.2222,Romania,RO,Ilfov,,4411,4411
+Manasia,44.7,26.6667,Romania,RO,Ialomita,,4405,4405
+Voitinel,47.8837,25.7573,Romania,RO,Suceava,,4387,4387
+Turt,47.9888,23.1979,Romania,RO,Satu Mare,,4384,4384
+Zetea,46.3833,25.3667,Romania,RO,Harghita,,4378,4378
+Independenta,45.4731,27.7623,Romania,RO,Galati,,4375,4375
+Deleni,47.4667,26.8833,Romania,RO,Iasi,,4369,4369
+Aninoasa,45.3782,23.3337,Romania,RO,Hunedoara,,4360,4360
+Piscu,45.5,27.7333,Romania,RO,Galati,,4359,4359
+Santandrei,47.0691,21.8554,Romania,RO,Bihor,,4349,4349
+Floresti,45.0299,25.812,Romania,RO,Prahova,,4339,4339
+Feldioara,45.8174,25.5914,Romania,RO,Brasov,,4334,4334
+Ciumani,46.6833,25.5167,Romania,RO,Harghita,,4328,4328
+Ocnita,44.9833,25.55,Romania,RO,Dambovita,,4325,4325
+Valea Mare-Podgoria,44.8851,24.9061,Romania,RO,Arges,,4318,4318
+Ieud,47.6771,24.2346,Romania,RO,Maramures,,4318,4318
+Slobozia,44.5214,25.2381,Romania,RO,Arges,,4305,4305
+Niculitel,45.1833,28.4833,Romania,RO,Tulcea,,4297,4297
+Floresti,44.5085,25.6938,Romania,RO,Giurgiu,,4290,4290
+Victoria,47.286,27.5976,Romania,RO,Iasi,,4282,4282
+Bucecea,47.7667,26.4333,Romania,RO,Botosani,,4274,4274
+Munteni,45.9276,27.4405,Romania,RO,Galati,,4272,4272
+Galicea Mare,44.1,23.3,Romania,RO,Dolj,,4268,4268
+Razvad,44.9369,25.5338,Romania,RO,Dambovita,,4266,4266
+Ciocanesti,44.2,27.0833,Romania,RO,Calarasi,,4257,4257
+Ceratu,44.0667,23.6667,Romania,RO,Dolj,,4226,4226
+Odoreu,47.795,22.9922,Romania,RO,Satu Mare,,4220,4220
+Cenad,46.1375,20.5867,Romania,RO,Timis,,4207,4207
+Slanic-Moldova,46.2066,26.4384,Romania,RO,Bacau,,4198,4198
+Romanesti,44.5628,25.6279,Romania,RO,Dambovita,,4198,4198
+Teliu,45.6979,25.858,Romania,RO,Brasov,,4198,4198
+Budila,45.6667,25.8,Romania,RO,Brasov,,4197,4197
+Todiresti,47.3333,26.8333,Romania,RO,Iasi,,4193,4193
+Lunguletu,44.6106,25.6641,Romania,RO,Dambovita,,4188,4188
+Baile Olanesti,45.2,24.2333,Romania,RO,Valcea,,4186,4186
+Perisoru,44.4354,27.547,Romania,RO,Calarasi,,4174,4174
+Ungheni-Prut,47.2,27.7833,Romania,RO,Iasi,,4173,4173
+Mihai Viteazu,46.5414,23.7472,Romania,RO,Cluj,,4129,4129
+Pleasa,45.0038,26.0714,Romania,RO,Prahova,,4123,4123
+Tulucesti,45.5666,28.0477,Romania,RO,Galati,,4115,4115
+Fratautii Noi,47.95,25.85,Romania,RO,Suceava,,4112,4112
+Padina,44.8228,27.1114,Romania,RO,Buzau,,4111,4111
+Corni,47.65,26.5833,Romania,RO,Botosani,,4102,4102
+Magureni,45.0435,25.7524,Romania,RO,Prahova,,4095,4095
+Maldaeni,44.1167,24.9333,Romania,RO,Teleorman,,4092,4092
+Baia de Aries,46.3794,23.2797,Romania,RO,Alba,,4074,4074
+Vinga,46.0162,21.2157,Romania,RO,Arad,,4063,4063
+Jijila,45.3,28.15,Romania,RO,Tulcea,,4056,4056
+Fundeni,44.4595,26.1668,Romania,RO,Bucuresti,,4051,4051
+Ciupercenii Noi,43.9167,22.95,Romania,RO,Dolj,,4043,4043
+Tileagd,47.0667,22.2,Romania,RO,Bihor,,4042,4042
+Podari,44.25,23.7833,Romania,RO,Dolj,,4028,4028
+Bradu,44.7833,24.9,Romania,RO,Arges,,4021,4021
+Zanesti,46.8178,26.5464,Romania,RO,Neamt,,4016,4016
+Zagon,45.7667,26.1167,Romania,RO,Covasna,,4007,4007
+Ditesti,44.9793,25.7279,Romania,RO,Prahova,,3978,3978
+Bragadiru,43.7667,25.5167,Romania,RO,Teleorman,,3969,3969
+Garbovi,44.7867,26.7674,Romania,RO,Ialomita,,3958,3958
+Band,46.5833,24.3833,Romania,RO,Mures,,3950,3950
+Ogrezeni,44.4167,25.7667,Romania,RO,Giurgiu,,3949,3949
+Calarasi,43.7934,24.0476,Romania,RO,Dolj,,3942,3942
+Hotarele,44.1833,26.3667,Romania,RO,Giurgiu,,3939,3939
+Faraoaní,46.4321,26.8963,Romania,RO,Bacau,,3932,3932
+Buzescu,44.0167,25.2333,Romania,RO,Teleorman,,3922,3922
+Ciorogarla,44.4432,25.8846,Romania,RO,Ilfov,,3919,3919
+Miercurea Sibiului,45.8833,23.7833,Romania,RO,Sibiu,,3910,3910
+Bogdanesti,47.3667,26.2833,Romania,RO,Suceava,,3909,3909
+Varasti,44.25,26.25,Romania,RO,Giurgiu,,3908,3908
+Telega,45.1399,25.7887,Romania,RO,Prahova,,3903,3903
+Oglinzi,47.2505,26.3503,Romania,RO,Neamt,,3903,3903
+Plenita,44.2227,23.1863,Romania,RO,Dolj,,3890,3890
+Podoleni,46.7978,26.6198,Romania,RO,Neamt,,3883,3883
+Daneti,43.9833,24.05,Romania,RO,Dolj,,3875,3875
+Vidra,44.2626,26.1644,Romania,RO,Ilfov,,3872,3872
+Bucesti,45.6529,27.5287,Romania,RO,Galati,,3870,3870
+Maneciu-Pamanteni,45.2904,26.002,Romania,RO,Prahova,,3862,3862
+Varias,46.0072,20.9603,Romania,RO,Timis,,3858,3858
+Bolintin Deal,44.45,25.8167,Romania,RO,Giurgiu,,3854,3854
+Focuri,47.35,27.2167,Romania,RO,Iasi,,3852,3852
+Buruenesti,46.9959,26.9773,Romania,RO,Neamt,,3850,3850
+Tesila,45.3033,25.7227,Romania,RO,Prahova,,3836,3836
+Unirea,44.1667,23.1833,Romania,RO,Dolj,,3814,3814
+Radovanu,44.1939,26.5151,Romania,RO,Calarasi,,3802,3802
+Barsana,47.815,24.0597,Romania,RO,Maramures,,3802,3802
+Palanca,46.5332,26.1304,Romania,RO,Bacau,,3799,3799
+Sfantu Ilie,47.6366,26.2084,Romania,RO,Suceava,,3788,3788
+Galbinasi,44.3167,26.4167,Romania,RO,Calarasi,,3772,3772
+Dumbravita,45.7692,25.4358,Romania,RO,Brasov,,3772,3772
+Isalnita,44.4,23.7333,Romania,RO,Dolj,,3770,3770
+Ipotesti,47.6167,26.2833,Romania,RO,Suceava,,3759,3759
+Dor Marunt,44.4441,26.9331,Romania,RO,Calarasi,,3754,3754
+Jina,45.7954,23.6947,Romania,RO,Sibiu,,3750,3750
+Mironeasa,46.9667,27.4167,Romania,RO,Iasi,,3744,3744
+Tarlungeni,45.6497,25.7627,Romania,RO,Brasov,,3743,3743
+Cartojani,44.4322,25.4899,Romania,RO,Giurgiu,,3724,3724
+Lapus,47.4956,24.0069,Romania,RO,Maramures,,3709,3709
+Barca,43.9663,23.6211,Romania,RO,Dolj,,3689,3689
+Vorniceni,47.9833,26.6667,Romania,RO,Botosani,,3686,3686
+Turia,46.0333,26.05,Romania,RO,Covasna,,3677,3677
+Sanmartin,47.0052,21.9742,Romania,RO,Bihor,,3672,3672
+Gheraesti,47.033,26.833,Romania,RO,Neamt,,3668,3668
+Bucsani,44.8674,25.6474,Romania,RO,Dambovita,,3667,3667
+Semlac,46.1167,20.9333,Romania,RO,Arad,,3667,3667
+Cristian,45.7833,24.0292,Romania,RO,Sibiu,,3665,3665
+Darmanesti,44.9165,25.7663,Romania,RO,Dambovita,,3664,3664
+Dornesti,47.8667,26.0167,Romania,RO,Suceava,,3664,3664
+Sulina,45.1594,29.6528,Romania,RO,Tulcea,,3663,3663
+Baleni Romani,44.8193,25.6537,Romania,RO,Dambovita,,3661,3661
+Bechet,43.7803,23.9568,Romania,RO,Dolj,,3657,3657
+Dudestii Vechi,46.0419,20.4764,Romania,RO,Timis,,3648,3648
+Blejoiu,44.9929,26.0111,Romania,RO,Prahova,,3638,3638
+Chiscani,45.1807,27.9303,Romania,RO,Braila,,3635,3635
+Viziru,45.0017,27.7128,Romania,RO,Braila,,3631,3631
+Barcea,45.75,27.4667,Romania,RO,Galati,,3626,3626
+Botiz,47.8334,22.9473,Romania,RO,Satu Mare,,3622,3622
+Fartanesti,45.7899,27.9915,Romania,RO,Galati,,3622,3622
+Gura Raului,45.7275,23.9719,Romania,RO,Sibiu,,3621,3621
+Vulcan,45.6333,25.4226,Romania,RO,Brasov,,3620,3620
+Brastavatu,43.9167,24.4,Romania,RO,Olt,,3615,3615
+Leu,44.1875,24,Romania,RO,Dolj,,3614,3614
+Parcovaci,47.4363,26.8473,Romania,RO,Iasi,,3607,3607
+Ion Luca Caragiale,44.9115,25.7027,Romania,RO,Dambovita,,3600,3600
+Matasari,44.85,23.0833,Romania,RO,Gorj,,3599,3599
+Cristesti,47.25,26.5833,Romania,RO,Iasi,,3598,3598
+Telciu,47.43,24.3942,Romania,RO,Bistrita-Nasaud,,3598,3598
+Nicolae Balcescu,46.4781,26.9185,Romania,RO,Bacau,,3595,3595
+Faurei,45.0842,27.2728,Romania,RO,Braila,,3592,3592
+Vasilati,44.2882,26.4443,Romania,RO,Calarasi,,3590,3590
+Cuza Voda,44.3,28.3167,Romania,RO,Constanta,,3586,3586
+Nanov,44,25.3,Romania,RO,Teleorman,,3586,3586
+Jebel,45.55,21.2167,Romania,RO,Timis,,3584,3584
+Bilca,47.9333,25.7833,Romania,RO,Suceava,,3583,3583
+Manastirea,44.2107,26.8981,Romania,RO,Calarasi,,3573,3573
+Tichilesti,45.1289,27.9082,Romania,RO,Braila,,3573,3573
+Halmeu,47.977,23.0202,Romania,RO,Satu Mare,,3564,3564
+Bistrita Bargaului,47.2086,24.7618,Romania,RO,Bistrita-Nasaud,,3564,3564
+Ocna Sibiului,45.8747,24.0667,Romania,RO,Sibiu,,3562,3562
+Rusanesti,43.937,24.5945,Romania,RO,Olt,,3555,3555
+Letcani,47.1833,27.4167,Romania,RO,Iasi,,3552,3552
+Carpinis,45.7872,20.9042,Romania,RO,Timis,,3551,3551
+Prundu,44.1,26.2333,Romania,RO,Giurgiu,,3549,3549
+Albesti,46.23,24.85,Romania,RO,Mures,,3546,3546
+Perieni,46.3,27.6167,Romania,RO,Vaslui,,3536,3536
+Motca,47.25,26.6167,Romania,RO,Iasi,,3522,3522
+Ostroveni,43.8,23.8833,Romania,RO,Dolj,,3504,3504
+Sita Buzaului,45.65,26.0667,Romania,RO,Covasna,,3502,3502
+Sacel,47.645,24.395,Romania,RO,Maramures,,3500,3500
+Biharea,47.1515,21.9222,Romania,RO,Bihor,,3493,3493
+Ramnicelu,45.3641,27.1067,Romania,RO,Buzau,,3491,3491
+Golesti,45.6625,27.1657,Romania,RO,Vrancea,,3489,3489
+Vama,47.8419,23.3975,Romania,RO,Satu Mare,,3486,3486
+Draganesti-Vlasca,44.1017,25.5977,Romania,RO,Teleorman,,3481,3481
+Comisani,44.872,25.5905,Romania,RO,Dambovita,,3480,3480
+Contesti,43.8,25.4833,Romania,RO,Teleorman,,3479,3479
+Maglavit,44.0333,23.1,Romania,RO,Dolj,,3472,3472
+Poiana,44.5666,25.6768,Romania,RO,Dambovita,,3465,3465
+Cornu de Jos,45.1553,25.7018,Romania,RO,Prahova,,3456,3456
+Praid,46.5529,25.1245,Romania,RO,Harghita,,3448,3448
+Margineni,46.591,26.8415,Romania,RO,Bacau,,3446,3446
+Santana de Mures,46.5761,24.5542,Romania,RO,Mures,,3441,3441
+Vadastrita,43.8471,24.3386,Romania,RO,Olt,,3437,3437
+Luncavita,45.2833,28.2667,Romania,RO,Tulcea,,3432,3432
+Adjudeni,47.0141,26.949,Romania,RO,Neamt,,3429,3429
+Munteni Buzau,44.6384,26.9729,Romania,RO,Ialomita,,3428,3428
+Carcea,44.2667,23.9,Romania,RO,Dolj,,3424,3424
+Unirea,46.4,23.8167,Romania,RO,Alba,,3414,3414
+Gherta Mica,47.9333,23.2333,Romania,RO,Satu Mare,,3412,3412
+Lueta,46.2667,25.4833,Romania,RO,Harghita,,3395,3395
+Chiselet,44.1833,26.85,Romania,RO,Calarasi,,3392,3392
+Piatra,43.8167,25.1667,Romania,RO,Teleorman,,3392,3392
+Gura sutii,44.7571,25.4993,Romania,RO,Dambovita,,3390,3390
+Comlosu Mare,45.8906,20.6272,Romania,RO,Timis,,3389,3389
+Varbilau,45.182,25.9602,Romania,RO,Prahova,,3388,3388
+Garla-Mare,44.2167,22.7667,Romania,RO,Mehedinti,,3382,3382
+Bezdead,45.1519,25.5209,Romania,RO,Dambovita,,3381,3381
+Manastirea Casin,46.1521,26.691,Romania,RO,Bacau,,3362,3362
+Pildesti,46.9967,26.8256,Romania,RO,Neamt,,3359,3359
+Vultureni,45.6205,27.422,Romania,RO,Galati,,3344,3344
+Rastu,43.8833,23.2833,Romania,RO,Dolj,,3343,3343
+Cerneti,44.6348,22.7094,Romania,RO,Mehedinti,,3339,3339
+Frumoasa,46.6655,26.5327,Romania,RO,Bacau,,3339,3339
+Dobrotesti,44.2833,24.8833,Romania,RO,Teleorman,,3333,3333
+Zemes,46.55,26.4661,Romania,RO,Bacau,,3329,3329
+Zabala,45.9,26.1833,Romania,RO,Covasna,,3324,3324
+Baneasa,44.0633,27.7017,Romania,RO,Constanta,,3321,3321
+Ghirdoveni,44.9406,25.6737,Romania,RO,Dambovita,,3317,3317
+Poiana Marului,45.6064,25.3073,Romania,RO,Brasov,,3315,3315
+Iancu Jianu,44.5,24.0333,Romania,RO,Olt,,3312,3312
+Ocnele Mari,45.0833,24.3167,Romania,RO,Valcea,,3309,3309
+Adunatii-Copaceni,44.25,26.05,Romania,RO,Giurgiu,,3309,3309
+Bordusani,44.4819,27.9045,Romania,RO,Ialomita,,3309,3309
+Magurele,45.1022,26.0373,Romania,RO,Prahova,,3297,3297
+Capatanesti,45.1894,26.7929,Romania,RO,Buzau,,3296,3296
+Berca,45.2873,26.681,Romania,RO,Buzau,,3296,3296
+Cernat,45.9503,26.0353,Romania,RO,Covasna,,3295,3295
+Biled,45.8864,20.9589,Romania,RO,Timis,,3294,3294
+Cazanesti,44.6192,27.01,Romania,RO,Ialomita,,3271,3271
+Movileni,45.7658,27.3759,Romania,RO,Vrancea,,3269,3269
+Traian,44.0218,24.4551,Romania,RO,Olt,,3264,3264
+Ilva Mica,47.3167,24.6667,Romania,RO,Bistrita-Nasaud,,3264,3264
+Lazarea,46.75,25.5333,Romania,RO,Harghita,,3254,3254
+Geoseni,46.4292,26.9924,Romania,RO,Bacau,,3249,3249
+Smeeni,44.9958,26.858,Romania,RO,Buzau,,3247,3247
+Ojdula,45.9833,26.25,Romania,RO,Covasna,,3247,3247
+Cilieni,43.9031,24.6158,Romania,RO,Olt,,3244,3244
+Topraisar,44.0133,28.4553,Romania,RO,Constanta,,3238,3238
+Cosoveni,44.2492,23.9328,Romania,RO,Dolj,,3237,3237
+Baneasa,44.05,26.0833,Romania,RO,Giurgiu,,3231,3231
+Valea Dragului,44.2111,26.303,Romania,RO,Giurgiu,,3230,3230
+Maracineni,44.9,24.8833,Romania,RO,Arges,,3228,3228
+Barcanesti,44.8815,26.0506,Romania,RO,Prahova,,3226,3226
+Rona de Sus,47.8978,24.0375,Romania,RO,Maramures,,3225,3225
+Lovrin,45.9681,20.7703,Romania,RO,Timis,,3223,3223
+Ploestiori,44.981,26.0197,Romania,RO,Prahova,,3222,3222
+Nusfalau,47.1971,22.7034,Romania,RO,Salaj,,3214,3214
+Dragomiresti,47.6669,24.2914,Romania,RO,Maramures,,3213,3213
+Orlat,45.7514,23.9672,Romania,RO,Sibiu,,3205,3205
+Domnesti,45.2,24.8333,Romania,RO,Arges,,3201,3201
+Malu Spart,44.4438,25.7157,Romania,RO,Giurgiu,,3200,3200
+Valea Stanciului,43.9833,23.8667,Romania,RO,Dolj,,3199,3199
+Baia de Fier,45.1707,23.7694,Romania,RO,Gorj,,3195,3195
+Stalpu,45.0833,26.7111,Romania,RO,Buzau,,3193,3193
+Aghiresu-Fabricei,46.8669,23.2701,Romania,RO,Cluj,,3193,3193
+Cervenia,43.8333,25.4667,Romania,RO,Teleorman,,3190,3190
+Marginenii de Jos,44.9569,25.7583,Romania,RO,Prahova,,3187,3187
+Turcoaia,45.1167,28.1833,Romania,RO,Tulcea,,3187,3187
+Osorheiu,47.05,22.0167,Romania,RO,Bihor,,3179,3179
+Dudestii Noi,45.8378,21.1006,Romania,RO,Timis,,3179,3179
+Vacaresti,44.8572,25.4876,Romania,RO,Dambovita,,3173,3173
+Branesti,45.0347,25.4129,Romania,RO,Dambovita,,3171,3171
+Certeze,47.903,23.46,Romania,RO,Satu Mare,,3171,3171
+Apata,45.9504,25.5331,Romania,RO,Brasov,,3169,3169
+Traian,44.7609,27.3381,Romania,RO,Ialomita,,3168,3168
+Iaslovat,47.7667,25.9667,Romania,RO,Suceava,,3163,3163
+Rebra,47.3167,24.5,Romania,RO,Bistrita-Nasaud,,3163,3163
+Gura Ocnitei,44.9417,25.5685,Romania,RO,Dambovita,,3160,3160
+Candesti,45.2492,26.7046,Romania,RO,Buzau,,3154,3154
+Tomnatic,45.9878,20.6586,Romania,RO,Timis,,3144,3144
+Cernica,44.4253,26.2756,Romania,RO,Ilfov,,3136,3136
+Brebu Manastirei,45.1816,25.7714,Romania,RO,Prahova,,3134,3134
+Poroschia,43.9333,25.3667,Romania,RO,Teleorman,,3132,3132
+Copacenii de Jos,44.2716,26.0794,Romania,RO,Giurgiu,,3131,3131
+Valea Seaca,46.2428,27.0459,Romania,RO,Bacau,,3124,3124
+Dersca,47.9833,26.2,Romania,RO,Botosani,,3124,3124
+Dridu,44.7,26.45,Romania,RO,Ialomita,,3112,3112
+Tanganu,44.407,26.309,Romania,RO,Calarasi,,3110,3110
+Geamana,44.8189,24.8898,Romania,RO,Arges,,3109,3109
+Vedea,43.7822,25.7886,Romania,RO,Giurgiu,,3108,3108
+Patulele,44.3455,22.7817,Romania,RO,Mehedinti,,3102,3102
+Poiana Campina,45.1291,25.713,Romania,RO,Prahova,,3097,3097
+Banesti,45.1,25.7667,Romania,RO,Prahova,,3096,3096
+Jilavele,44.7667,26.5333,Romania,RO,Ialomita,,3096,3096
+Vadu Pasii,45.1591,26.8846,Romania,RO,Buzau,,3094,3094
+Peciu Nou,45.6053,21.0581,Romania,RO,Timis,,3092,3092
+Lunca Ilvei,47.3667,24.9833,Romania,RO,Bistrita-Nasaud,,3086,3086
+Bicaz Chei,46.8279,25.8753,Romania,RO,Neamt,,3082,3082
+Cogealac,44.558,28.5582,Romania,RO,Constanta,,3081,3081
+Lipovu,44.1,23.6333,Romania,RO,Dolj,,3075,3075
+Bertea,45.2303,25.8693,Romania,RO,Prahova,,3072,3072
+Nicolae Balcescu,44.3833,28.3833,Romania,RO,Constanta,,3066,3066
+Mitocu Dragomirnei,47.7333,26.25,Romania,RO,Suceava,,3065,3065
+Sanandrei,45.9106,21.1642,Romania,RO,Timis,,3065,3065
+Tamaseni,46.994,26.9505,Romania,RO,Neamt,,3064,3064
+Baraganul,44.8107,27.5152,Romania,RO,Braila,,3062,3062
+Osica de Sus,44.25,24.3167,Romania,RO,Olt,,3059,3059
+Jirlau,45.1662,27.1883,Romania,RO,Braila,,3059,3059
+Valea Adanca,47.1256,27.5565,Romania,RO,Iasi,,3053,3053
+Slobozia-Conache,45.5833,27.7833,Romania,RO,Galati,,3050,3050
+Micula,47.8997,22.9497,Romania,RO,Satu Mare,,3049,3049
+Gologanu,45.6167,27.2667,Romania,RO,Vrancea,,3040,3040
+Halchiu,45.761,25.5438,Romania,RO,Brasov,,3035,3035
+Liebling,45.5794,21.3203,Romania,RO,Timis,,3034,3034
+Sanislau,47.6415,22.3259,Romania,RO,Satu Mare,,3033,3033
+Starchiojd,45.3228,26.1881,Romania,RO,Prahova,,3033,3033
+Hantesti,47.75,26.3667,Romania,RO,Suceava,,3032,3032
+Capleni,47.7167,22.5,Romania,RO,Satu Mare,,3031,3031
+Rebrisoara,47.2875,24.4517,Romania,RO,Bistrita-Nasaud,,3031,3031
+Darasti-Ilfov,44.3167,26.0167,Romania,RO,Ilfov,,3026,3026
+Iazu,44.7177,25.8309,Romania,RO,Dambovita,,3025,3025
+Schela,45.508,27.8309,Romania,RO,Galati,,3023,3023
+Voinesti,47.0833,27.4333,Romania,RO,Iasi,,3020,3020
+Salard,47.224,22.0284,Romania,RO,Bihor,,3014,3014
+Tatarani,44.8931,26.0348,Romania,RO,Prahova,,3013,3013
+Comani,44.192,24.4907,Romania,RO,Olt,,3011,3011
+Goranu,45.1052,24.3843,Romania,RO,Valcea,,3010,3010
+Parscov,45.2888,26.548,Romania,RO,Buzau,,3009,3009
+Bughea de Sus,45.2981,25.0328,Romania,RO,Arges,,2997,2997
+Maracineni,45.1773,26.8242,Romania,RO,Buzau,,2996,2996
+Mogosesti,47.0333,27.5167,Romania,RO,Iasi,,2994,2994
+Limanu,43.7991,28.5283,Romania,RO,Constanta,,2990,2990
+Picior de Munte,44.7825,25.3905,Romania,RO,Dambovita,,2985,2985
+Branistea,44.6795,25.5774,Romania,RO,Dambovita,,2978,2978
+Buciumeni,44.5489,25.9633,Romania,RO,Ilfov,,2976,2976
+Mihail Kogalniceanu,44.6788,27.7113,Romania,RO,Ialomita,,2959,2959
+Dumbrava Rosie,46.8833,26.4383,Romania,RO,Neamt,,2957,2957
+Pietrosani,43.7167,25.6333,Romania,RO,Teleorman,,2941,2941
+Cazasu,45.2713,27.8883,Romania,RO,Braila,,2939,2939
+Satchinez,45.9433,21.0397,Romania,RO,Timis,,2937,2937
+Sintesti,44.3139,26.1094,Romania,RO,Ilfov,,2936,2936
+Pecineaga,43.8953,28.4994,Romania,RO,Constanta,,2936,2936
+Fantanele,44.7126,25.8812,Romania,RO,Dambovita,,2934,2934
+Vadu Crisului,46.986,22.5169,Romania,RO,Bihor,,2932,2932
+Visina,43.8661,24.4534,Romania,RO,Olt,,2930,2930
+Letea Veche,46.5553,26.9469,Romania,RO,Bacau,,2926,2926
+Crevedia,44.6,25.9333,Romania,RO,Dambovita,,2925,2925
+Malini,47.45,26.0667,Romania,RO,Suceava,,2924,2924
+Suseni,46.6667,25.55,Romania,RO,Harghita,,2918,2918
+Frumusani,44.2976,26.3211,Romania,RO,Calarasi,,2916,2916
+Beresti-Targ,46.0936,27.8881,Romania,RO,Galati,,2916,2916
+Orbeasca de Sus,44.1374,25.3197,Romania,RO,Teleorman,,2914,2914
+Gheraseni,45.0253,26.7916,Romania,RO,Buzau,,2912,2912
+Ciobanu,44.7167,27.9865,Romania,RO,Constanta,,2907,2907
+Sapanta,47.9722,23.6972,Romania,RO,Maramures,,2903,2903
+Tulghes,46.9408,25.7175,Romania,RO,Harghita,,2893,2893
+Raucesti,47.2496,26.4165,Romania,RO,Neamt,,2890,2890
+Visina,44.5907,25.333,Romania,RO,Dambovita,,2889,2889
+Branceni,43.8833,25.4,Romania,RO,Teleorman,,2881,2881
+Valeni,46.744,27.7634,Romania,RO,Vaslui,,2875,2875
+Frumusita,45.653,28.0663,Romania,RO,Galati,,2875,2875
+Jaristea,45.7949,27.0606,Romania,RO,Vrancea,,2869,2869
+Balaceanca,44.3931,26.2897,Romania,RO,Ilfov,,2865,2865
+Sabareni,44.5071,25.8791,Romania,RO,Giurgiu,,2864,2864
+Bughea de Jos,45.2761,24.9978,Romania,RO,Arges,,2862,2862
+Satu Nou,44.2697,28.2242,Romania,RO,Constanta,,2862,2862
+Movila Miresei,45.2153,27.622,Romania,RO,Braila,,2860,2860
+Saveni,44.6032,27.6359,Romania,RO,Ialomita,,2857,2857
+Crampoia,44.3,24.75,Romania,RO,Olt,,2853,2853
+Becicherecu Mic,45.829,21.0514,Romania,RO,Timis,,2853,2853
+Doua Mai,43.7872,28.5775,Romania,RO,Constanta,,2848,2848
+Rotunda,44,24.3167,Romania,RO,Olt,,2841,2841
+Remetea Chioarului,47.5276,23.5478,Romania,RO,Maramures,,2834,2834
+Mosnita Noua,45.7181,21.3258,Romania,RO,Timis,,2833,2833
+Ulmu,44.9507,27.3294,Romania,RO,Braila,,2829,2829
+Ciolpani,44.7254,26.1052,Romania,RO,Ilfov,,2828,2828
+Curtuiuseni,47.5465,22.1993,Romania,RO,Bihor,,2825,2825
+Havarna,48.0667,26.65,Romania,RO,Botosani,,2823,2823
+Ostra,47.4,25.7667,Romania,RO,Suceava,,2823,2823
+Racaciuni,46.3261,27.0138,Romania,RO,Bacau,,2820,2820
+Trifesti,46.8981,26.8622,Romania,RO,Neamt,,2818,2818
+Rozavlea,47.7364,24.2225,Romania,RO,Maramures,,2816,2816
+Vladeni,44.8756,25.7753,Romania,RO,Dambovita,,2807,2807
+Stulpicani,47.4585,25.765,Romania,RO,Suceava,,2807,2807
+Sanmihaiu Roman,45.7078,21.09,Romania,RO,Timis,,2805,2805
+Ograda,44.6167,27.5833,Romania,RO,Ialomita,,2803,2803
+Zizin,45.6376,25.7747,Romania,RO,Brasov,,2802,2802
+Broscauti,47.95,26.45,Romania,RO,Botosani,,2801,2801
+Amarastii de Jos,43.9521,24.1639,Romania,RO,Dolj,,2795,2795
+Salcia,44.1398,22.9301,Romania,RO,Mehedinti,,2794,2794
+Lunca Calnicului,45.7555,25.7755,Romania,RO,Covasna,,2793,2793
+Catelu,44.4031,26.2177,Romania,RO,Ilfov,,2790,2790
+Teregova,45.1481,22.2819,Romania,RO,Caras-Severin,,2790,2790
+Baia,44.7233,28.6778,Romania,RO,Tulcea,,2789,2789
+Periceiu,47.2316,22.8631,Romania,RO,Salaj,,2785,2785
+Ruseni,46.7972,26.5396,Romania,RO,Neamt,,2784,2784
+Valea Marului,45.8387,27.6914,Romania,RO,Galati,,2781,2781
+Potlogi,44.5606,25.588,Romania,RO,Dambovita,,2778,2778
+Vama,47.5715,25.6913,Romania,RO,Suceava,,2778,2778
+Palanca,44.4743,25.7247,Romania,RO,Giurgiu,,2775,2775
+Sarichioi,44.95,28.85,Romania,RO,Tulcea,,2775,2775
+Daia Romana,46.0069,23.6664,Romania,RO,Alba,,2773,2773
+Scanteia,44.7337,27.4657,Romania,RO,Ialomita,,2773,2773
+Criscior,46.1236,22.8595,Romania,RO,Hunedoara,,2770,2770
+Adancata,47.7351,26.2951,Romania,RO,Suceava,,2765,2765
+Racsa,47.8167,23.35,Romania,RO,Satu Mare,,2761,2761
+Goicea,43.9167,23.6167,Romania,RO,Dolj,,2760,2760
+Troianul,44.0014,25.0211,Romania,RO,Teleorman,,2753,2753
+Persinari,44.8019,25.4988,Romania,RO,Dambovita,,2750,2750
+Stancea,44.1367,26.8129,Romania,RO,Calarasi,,2744,2744
+Floresti,44.6192,23.5284,Romania,RO,Gorj,,2744,2744
+Sagna,46.9709,27.008,Romania,RO,Neamt,,2742,2742
+Marsa,44.3667,25.55,Romania,RO,Giurgiu,,2742,2742
+Salva,47.3086,24.3569,Romania,RO,Bistrita-Nasaud,,2738,2738
+Roma,47.8333,26.6,Romania,RO,Botosani,,2738,2738
+Holboca,47.15,27.7,Romania,RO,Iasi,,2737,2737
+Chisoda,45.7028,21.2114,Romania,RO,Timis,,2736,2736
+Sanzieni,46.05,26.1333,Romania,RO,Covasna,,2730,2730
+Siculeni,46.4356,25.7524,Romania,RO,Harghita,,2726,2726
+Aricestii-Rahtivani,44.95,25.8333,Romania,RO,Prahova,,2721,2721
+Brebeni,44.3667,24.45,Romania,RO,Olt,,2720,2720
+Botiza,47.6667,24.15,Romania,RO,Maramures,,2717,2717
+Cretesti,44.2769,26.1364,Romania,RO,Ilfov,,2708,2708
+Lechinta,47.0194,24.3336,Romania,RO,Bistrita-Nasaud,,2702,2702
+Felnac,46.1167,21.15,Romania,RO,Arad,,2699,2699
+Mavrodin,44.0333,25.25,Romania,RO,Teleorman,,2693,2693
+Glodeni,46.65,24.6,Romania,RO,Mures,,2688,2688
+Lita,43.8,24.8167,Romania,RO,Teleorman,,2687,2687
+Petelea,46.73,24.72,Romania,RO,Mures,,2683,2683
+Rasca,47.3667,26.2333,Romania,RO,Suceava,,2681,2681
+Catamaresti-Deal,47.7707,26.6007,Romania,RO,Botosani,,2678,2678
+Hodac,46.7745,24.9223,Romania,RO,Mures,,2672,2672
+Dragomiresti-Deal,44.4594,25.946,Romania,RO,Ilfov,,2669,2669
+Lazuri,47.8543,22.8708,Romania,RO,Satu Mare,,2666,2666
+Vladestii de Sus,45.154,24.9269,Romania,RO,Arges,,2663,2663
+Calinesti-Oas,47.9203,23.2864,Romania,RO,Satu Mare,,2662,2662
+Casin,46.1992,26.7449,Romania,RO,Bacau,,2662,2662
+Vetrisoaia,46.4291,28.2097,Romania,RO,Vaslui,,2662,2662
+Fratautii Vechi,47.9,25.8833,Romania,RO,Suceava,,2653,2653
+Corunca,46.5167,24.6167,Romania,RO,Mures,,2649,2649
+Tarsolt,47.9436,23.3359,Romania,RO,Satu Mare,,2649,2649
+Stoicanesti,44.1845,24.6407,Romania,RO,Olt,,2638,2638
+Brahasestii de Sus,46.0399,27.3701,Romania,RO,Galati,,2637,2637
+Silistea Noua,44.3833,25,Romania,RO,Teleorman,,2633,2633
+Ploscuteni,46.0786,27.2703,Romania,RO,Vrancea,,2632,2632
+Saravale,46.0703,20.7372,Romania,RO,Timis,,2628,2628
+Scurtesti,45.1383,26.904,Romania,RO,Buzau,,2624,2624
+Copalau,47.6167,26.8333,Romania,RO,Botosani,,2624,2624
+Popricani,47.3,27.5167,Romania,RO,Iasi,,2621,2621
+Brebu Megiesesc,45.1677,25.7747,Romania,RO,Prahova,,2613,2613
+Ghiaba,45.3092,26.0063,Romania,RO,Prahova,,2613,2613
+Cosoba,44.5333,25.8167,Romania,RO,Giurgiu,,2611,2611
+Falcoiu,44.2333,24.3667,Romania,RO,Olt,,2610,2610
+Alunis,45.2,25.8667,Romania,RO,Prahova,,2609,2609
+Trestieni,44.505,25.7576,Romania,RO,Giurgiu,,2608,2608
+Bixad,47.9187,23.3916,Romania,RO,Satu Mare,,2599,2599
+Ineu,47.1,22.15,Romania,RO,Bihor,,2595,2595
+Maruntei,44.2132,24.4696,Romania,RO,Olt,,2593,2593
+Pojorata,47.5167,25.45,Romania,RO,Suceava,,2592,2592
+Popeni,46.2467,27.8052,Romania,RO,Vaslui,,2588,2588
