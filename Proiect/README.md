@@ -19,9 +19,9 @@
  
             1. ridesTable pentru curse disponibile 
             2. usersTable pentru gestionarea conturilor 
-            3. Romanian_cities unde facem ```SEED``` unui csv.
+            3. Romanian_cities unde facem seed unui csv.
   - Utilizam un ```Daemon Thread``` cu scop de ```garbage collector``` pentru datele din ridesTable care nu mai sunt relevante.
-  - Proiectul este documentat cu ```JavaDoc```
+  - Proiectul este documentat cu ```JavaDoc```.
 
 ## Flow description
   
