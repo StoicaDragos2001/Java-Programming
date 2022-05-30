@@ -1,5 +1,7 @@
 # rideShare
 
+![image]({https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white})
+
 ## Authors
 - [Petrea Daniela](https://github.com/Daniela-Petrea)
 - [Stoica Dragos](https://github.com/StoicaDragos2001)
