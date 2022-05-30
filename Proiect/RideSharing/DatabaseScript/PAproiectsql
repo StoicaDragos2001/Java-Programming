@@ -1,0 +1,139 @@
+SET SERVEROUTPUT ON
+/
+CREATE TABLE RidesTable (
+    rideIndex INT NOT NULL,
+    username VARCHAR2(55),
+    phoneNumber VARCHAR2(55),
+    fromRide VARCHAR2(55),
+    toRide VARCHAR2(55),
+    whenRide VARCHAR2(55),
+    noSeats VARCHAR2(55),
+    price VARCHAR2(55)
+);
+/
+CREATE TABLE UsersTable(
+  username VARCHAR2(55),
+  userPass VARCHAR2(55),
+  phoneNumber VARCHAR2(55),
+  connected NUMBER
+);
+/
+
+CREATE TABLE Romanian_cities
+    (
+    city VARCHAR2(50),
+    lat VARCHAR2(50),
+    lng VARCHAR2(50),
+    country VARCHAR2(50),
+    iso2 VARCHAR2(10),
+    admin_name VARCHAR2(50),
+    capital VARCHAR2(50),
+    population VARCHAR2(50),
+    population_proper VARCHAR2(50)
+    );  
+/
+DECLARE
+    F UTL_FILE.FILE_TYPE;
+    v_city VARCHAR2(50);
+    v_lat VARCHAR2(50);
+    v_lng VARCHAR2(50);
+    v_country VARCHAR2(50);
+    v_iso2 VARCHAR2(10);
+    v_admin_name VARCHAR2(50);
+    v_capital VARCHAR2(50);
+    v_population VARCHAR2(50);
+    v_population_proper VARCHAR2(50);
+    V_LINE VARCHAR2 (1000);
+    BEGIN
+     F := UTL_FILE.FOPEN ('MYDIR', 'rocities.csv', 'R');
+    IF UTL_FILE.IS_OPEN(F) THEN
+      LOOP
+        BEGIN
+          UTL_FILE.GET_LINE(F, V_LINE, 1000);
+          IF V_LINE IS NULL THEN
+            EXIT;
+          END IF;
+          v_city := REGEXP_SUBSTR(V_LINE, '[^,]+', 1, 1);
+          v_lat := REGEXP_SUBSTR(V_LINE, '[^,]+', 1, 3);
+          v_lng := REGEXP_SUBSTR(V_LINE, '[^,]+', 1, 2);
+          v_country := REGEXP_SUBSTR(V_LINE, '[^,]+', 1, 4);
+          v_iso2 := REGEXP_SUBSTR(V_LINE, '[^,]+', 1, 5);
+          v_admin_name := REGEXP_SUBSTR(V_LINE, '[^,]+', 1, 6);
+          v_capital := REGEXP_SUBSTR(V_LINE, '[^,]+', 1, 7);
+          v_population := REGEXP_SUBSTR(V_LINE, '[^,]+', 1, 8);
+          v_population_proper := REGEXP_SUBSTR(V_LINE, '[^,]+', 1, 9);
+          INSERT INTO Romanian_cities VALUES( v_city,v_lat,v_lng,v_country,v_iso2,v_admin_name,v_capital,v_population,v_population_proper);
+          COMMIT;
+        EXCEPTION
+        WHEN NO_DATA_FOUND THEN
+          EXIT;
+        END;
+      END LOOP;
+    END IF;
+    UTL_FILE.FCLOSE(F);
+  END;
+  /
+CREATE OR REPLACE FUNCTION verify_corectitude(username VARCHAR2,password VARCHAR2,phoneNumber VARCHAR2)
+RETURN VARCHAR2 AS
+   v_message VARCHAR2(1000) := 'Everything is correct';
+BEGIN
+    IF(username IS NULL OR password IS NULL OR phoneNumber IS NULL) THEN
+    v_message:='Please fill in all the information to sign up!';
+    END IF;
+    IF(LENGTH(password)<8) THEN
+    v_message:='Please introduce a password that contains at least 8 characters!';
+    END IF;
+    IF LENGTH(TRIM(TRANSLATE (password, ' +-.0123456789','  '))) =LENGTH(password) THEN
+    v_message:='Please introduce a password that contains at least a numerical character';
+    END IF;
+    IF LENGTH(TRIM(TRANSLATE (password, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ','  '))) =LENGTH(password) THEN
+    v_message:='Please introduce a password that contains at least a capital letter';
+    END IF;
+    IF(LENGTH(phoneNumber)!=10) THEN
+    v_message:='Please introduce a phone number that contains 10 characters!';
+    END IF;
+    IF SUBSTR(phoneNumber,0,1)!='0' THEN
+    v_message:='Please introduce a phone number that starts with 0';
+    END IF;
+     IF LENGTH(TRIM(TRANSLATE (phoneNumber, ' +-.0123456789','  '))) IS NOT NULL THEN
+     v_message:='Please introduce a phone number that contains only numerical characters';
+     END IF;
+    RETURN v_message;
+END;
+/
+CREATE OR REPLACE FUNCTION verify_offer_page(dateTrip VARCHAR2,priceTrip VARCHAR2)
+RETURN VARCHAR2 AS
+   v_message VARCHAR2(1000) := 'Everything is correct';
+   v_current_date VARCHAR2(1000);
+BEGIN
+    IF(dateTrip IS NULL OR priceTrip IS NULL) THEN
+    v_message:='Please fill in all the information to sign up!';
+    END IF;
+    SELECT TO_CHAR (Sysdate, 'YYYY-MM-DD') INTO v_current_date FROM Dual;
+    IF(to_date(dateTrip,'YYYY-MM-DD')<sysdate) THEN
+    v_message:='The trip cannot take place on a day that has passed, please enter a valid day!'; 
+    END IF;
+    IF LENGTH(TRIM(TRANSLATE (priceTrip, ' +-.0123456789','  '))) IS NOT NULL THEN
+    v_message:='Price must be a numerical character!';
+    END IF;
+    RETURN v_message;
+END;
+/
+CREATE OR REPLACE FUNCTION verify_find_page(dateTrip VARCHAR2)
+RETURN VARCHAR2 AS
+   v_message VARCHAR2(1000) := 'Everything is correct';
+   v_current_date VARCHAR2(1000);
+BEGIN
+    IF(dateTrip IS NULL) THEN
+    v_message:='Please fill in all the information to sign up!';
+    END IF;
+    SELECT TO_CHAR (Sysdate, 'YYYY-MM-DD') INTO v_current_date FROM Dual;
+    IF(to_date(dateTrip,'YYYY-MM-DD')<sysdate) THEN
+    v_message:='The trip cannot take place on a day that has passed, please enter a valid day!'; 
+    END IF;
+    RETURN v_message;
+END;
+/
+select * from UsersTable;
+/
+select * from RidesTable;
