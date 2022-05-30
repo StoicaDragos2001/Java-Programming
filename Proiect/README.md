@@ -1,6 +1,8 @@
 # rideShare
 
-@authors: Petrea Daniela & Stoica Dragos
+## Authors
+- [Petrea Daniela](https://github.com/Daniela-Petrea)
+- [Stoica Dragos](https://github.com/StoicaDragos2001)
 
 ## About rideShare
 
