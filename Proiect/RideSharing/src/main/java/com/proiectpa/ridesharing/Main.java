@@ -14,7 +14,7 @@ import java.sql.Statement;
 
 /**
  * @author Petrea Daniela and Stoica Dragos
- * @see Class Main
+ * Class Main
  */
 
 public class Main extends Application {

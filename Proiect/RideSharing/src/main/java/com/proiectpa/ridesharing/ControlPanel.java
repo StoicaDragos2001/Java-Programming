@@ -18,7 +18,7 @@ import java.sql.SQLException;
 /**
  * the control panel that manage the controllers
  * @author Petrea Daniela and Stoica Dragos
- * @see Class ControlPanel
+ * Class ControlPanel
  */
 public class ControlPanel {
     /**

@@ -8,7 +8,7 @@ import java.sql.SQLException;
 /**
  * We have a daemon thread deleting from the database columns that are no longer useful
  * @author Petrea Daniela and Stoica Dragos
- * @see Class DaemonThread
+ * Class DaemonThread
  */
 public class DaemonThread extends Thread {
     public DaemonThread(String name) {

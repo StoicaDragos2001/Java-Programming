@@ -21,7 +21,7 @@ import java.util.ResourceBundle;
 /**
  * we verify if the information about rides is correct and redirect the user to Show Rides Page to see rides which correspond to the information requested by him
  * @author Petrea Daniela and Stoica Dragos
- * @see Class Finding Controller
+ * Class Finding Controller
  */
 public class FindingController implements Initializable {
     @FXML

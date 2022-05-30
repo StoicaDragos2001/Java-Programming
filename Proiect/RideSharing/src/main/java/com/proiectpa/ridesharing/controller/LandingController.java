@@ -21,7 +21,7 @@ import java.util.ResourceBundle;
  * main page of the site
  * the user can connect to offer a ride or to see rides
  * @author Petrea Daniela and Stoica Dragos
- * @see Class LandingController
+ * Class LandingController
  */
 public class LandingController implements Initializable {
     @FXML

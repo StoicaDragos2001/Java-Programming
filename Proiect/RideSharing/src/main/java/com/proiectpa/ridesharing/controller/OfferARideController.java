@@ -16,7 +16,7 @@ import java.util.ResourceBundle;
 /**
  * the user who plans to make a ride in the future enters information about ride in the application
  * @author Petrea Daniela and Stoica Dragos
- * @see Class OfferARideController
+ * Class OfferARideController
  */
 public class OfferARideController implements Initializable {
     @FXML

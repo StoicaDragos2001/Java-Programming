@@ -19,7 +19,7 @@ import java.util.ResourceBundle;
 /**
  * we display the matching rides with the information from the Find page
  * @author Petrea Daniela and Stoica Dragos
- * @see Class ShowRidesController
+ * Class ShowRidesController
  */
 public class ShowRidesController implements Initializable {
     @FXML

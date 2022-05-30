@@ -14,7 +14,7 @@ import java.util.ResourceBundle;
 /**
  * the page where the user who already has an account logs in with his credentials
  * @author Petrea Daniela and Stoica Dragos
- * @see Class LoginController
+ * Class LoginController
  */
 public class LoginController implements Initializable {
     @FXML

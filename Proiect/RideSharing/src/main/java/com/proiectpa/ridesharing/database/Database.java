@@ -7,7 +7,7 @@ import java.sql.SQLException;
 /**
  * Singleton class to manage a connection to the database
  * @author Petrea Daniela and Stoica Dragos
- * @see Class Database
+ * Class Database
  */
 public class Database {
     private static final String dbURL = "jdbc:oracle:thin:@localhost:1521/xe";

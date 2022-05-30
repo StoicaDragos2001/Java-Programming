@@ -18,7 +18,7 @@ import java.util.ResourceBundle;
 /**
  * the page where a new user creates an account
  * @author Petrea Daniela and Stoica Dragos
- * @see Class SignUpController
+ * Class SignUpController
  */
 public class SignUpController implements Initializable {
     @FXML
