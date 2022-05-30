@@ -17,9 +17,9 @@
   - Interfata grafica este realizata in ```JavaFX```.
   - Comunicam cu o baza de date tip ```Oracle SQL```. Avem 3 tabele: 
  
-                  1. ridesTable pentru curse disponibile 
-                  2. usersTable pentru gestionarea conturilor 
-                  3. Romanian_cities unde facem SEED unui csv.
+            1. ridesTable pentru curse disponibile 
+            2. usersTable pentru gestionarea conturilor 
+            3. Romanian_cities unde facem ```SEED``` unui csv.
   - Utilizam un ```Daemon Thread``` cu scop de ```garbage collector``` pentru datele din ridesTable care nu mai sunt relevante.
   - Proiectul este documentat cu ```JavaDoc```
 
