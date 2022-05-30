@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<ScrollPane xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.proiectpa.ridesharing.controller.ShowRidesController">
+   <content>
+      <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0">
+          <children>
+              <AnchorPane prefHeight="115.0" prefWidth="600.0" style="-fx-background-color: #C4DDFF;">
+                  <children>
+                      <ImageView fitHeight="141.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+                          <image>
+                              <Image url="@images/Group268.jpg" />
+                          </image>
+                      </ImageView>
+                      <Label layoutX="40.0" layoutY="41.0" text="rideShare" textFill="WHITE">
+                          <font>
+                              <Font name="SansSerif Regular" size="42.0" />
+                          </font>
+                      </Label>
+                      <Button fx:id="button" layoutX="432.0" layoutY="46.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="128.0" style="-fx-background-radius: 2em; -fx-background-color: #fff; -fx-cursor: hand;" text="Logout">
+                          <font>
+                              <Font name="Roboto Light" size="16.0" />
+                          </font>
+                  </Button>
+                  </children>
+            </AnchorPane>
+              <AnchorPane prefHeight="302.0" prefWidth="600.0" style="-fx-background-color: fff;">
+               <children>
+                  <ListView fx:id="resultsList" prefHeight="262.0" prefWidth="602.0" />
+                  <Label fx:id="fromLabel" layoutX="14.0" layoutY="230.0" opacity="0.0" text="Label" />
+                  <Label fx:id="toLabel" layoutX="76.0" layoutY="230.0" opacity="0.0" text="Label" />
+                  <Label fx:id="whenLabel" layoutX="128.0" layoutY="230.0" opacity="0.0" text="Label" />
+                  <Label fx:id="seatsLabel" layoutX="178.0" layoutY="230.0" opacity="0.0" text="Label" />
+               </children>
+              </AnchorPane>
+          </children>
+      </VBox>
+   </content>
+</ScrollPane>

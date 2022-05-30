@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.proiectpa.ridesharing.controller.FindingController">
+    <children>
+        <AnchorPane prefHeight="115.0" prefWidth="600.0" style="-fx-background-color: #C4DDFF;">
+            <children>
+                <ImageView fitHeight="141.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@images/Group268.jpg" />
+                    </image>
+                </ImageView>
+                <Label layoutX="40.0" layoutY="41.0" text="rideShare" textFill="WHITE">
+                    <font>
+                        <Font name="SansSerif Regular" size="42.0" />
+                    </font>
+                </Label>
+                <Button fx:id="button" layoutX="432.0" layoutY="46.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="128.0" style="-fx-background-radius: 2em; -fx-background-color: #fff; -fx-cursor: hand;" text="Logout">
+                    <font>
+                        <Font name="Roboto Light" size="16.0" />
+                    </font></Button>
+            </children></AnchorPane>
+        <AnchorPane prefHeight="302.0" prefWidth="600.0" style="-fx-background-color: fff;">
+            <children>
+                <DatePicker fx:id="when" layoutX="196.0" layoutY="101.0" prefHeight="26.0" prefWidth="282.0" />
+                <Label layoutX="145.0" layoutY="29.0" text="From:" textFill="#2b2b2b">
+                    <font>
+                        <Font name="Roboto Light" size="14.0" />
+                    </font>
+                </Label>
+                <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="121.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@images/location-pin.png" />
+                    </image>
+                </ImageView>
+                <Label layoutX="146.0" layoutY="65.0" text="To:" textFill="#2b2b2b">
+                    <font>
+                        <Font name="Roboto Light" size="14.0" />
+                    </font>
+                </Label>
+                <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="121.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@images/location-pin.png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="20.0" fitWidth="19.0" layoutX="121.0" layoutY="104.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@images/calendar.png" />
+                    </image>
+                </ImageView>
+                <Label layoutX="147.0" layoutY="104.0" text="When:" textFill="#2b2b2b">
+                    <font>
+                        <Font name="Roboto Light" size="14.0" />
+                    </font>
+                </Label>
+                <Button fx:id="search" layoutX="119.0" layoutY="182.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="360.0" style="-fx-background-radius: 2em; -fx-cursor: hand; -fx-background-color: #655EEA;" text="      Search a ride" textFill="WHITE">
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+                </Button>
+                <ImageView fitHeight="20.0" fitWidth="36.0" layoutX="237.0" layoutY="196.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@images/search.png" />
+                    </image>
+                </ImageView>
+            <ComboBox fx:id="from" layoutX="196.0" layoutY="26.0" prefHeight="26.0" prefWidth="282.0" promptText="From" />
+            <ImageView fitHeight="26.0" fitWidth="20.0" layoutX="121.0" layoutY="141.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/people.png" />
+               </image>
+            </ImageView>
+            <ComboBox fx:id="to" layoutX="196.0" layoutY="62.0" prefHeight="26.0" prefWidth="282.0" promptText="To" />
+            <ComboBox fx:id="seats" layoutX="196.0" layoutY="138.0" prefHeight="26.0" prefWidth="282.0" promptText="Seats" />
+            <Label layoutX="147.0" layoutY="141.0" text="Seats" textFill="#2b2b2b">
+               <font>
+                  <Font name="Roboto Light" size="14.0" />
+               </font></Label>
+            </children>
+        </AnchorPane>
+    </children>
+</VBox>

@@ -1,0 +1,5 @@
+module:com.example.ridesharing
+com.proiectpa.ridesharing
+com.proiectpa.ridesharing.controller
+com.proiectpa.ridesharing.database
+com.proiectpa.ridesharing.thread

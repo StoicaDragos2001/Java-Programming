@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"m":"com.example.ridesharing","l":"com.proiectpa.ridesharing"},{"m":"com.example.ridesharing","l":"com.proiectpa.ridesharing.controller"},{"m":"com.example.ridesharing","l":"com.proiectpa.ridesharing.database"},{"m":"com.example.ridesharing","l":"com.proiectpa.ridesharing.thread"}];updateSearchResults();
