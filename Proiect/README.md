@@ -1,9 +1,9 @@
-# @authors: Petrea Daniela & Stoica Dragos
+# rideShare
 
-# SMART CITY
+## @authors: Petrea Daniela & Stoica Dragos
+
+## About rideShare
 
 # Ride Sharing
 
-    Aplicație de împărțire a călătoriei pentru persoane care merg în aceeași zonă și au locuri libere în mașină
-    
-    Se reduce necesarul de locuri de parcare
+    Aplicație de împărțire din categoria [SMART CITY](https://iasismartcity.ro/) de impartire a călătoriei pentru persoane care merg în aceeași zonă și au locuri libere în mașină. Scopul este acela de a se reduce necesarul de locuri de parcare si aglomeratia urbana. 
